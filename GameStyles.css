@@ -1,0 +1,67 @@
+﻿#content {
+	display: block;
+	width: 900px;
+	height: 600px;
+	background-color: lightyellow;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#nav {
+	float: left;
+	padding: 5px;
+}
+#cards {
+	width: 300px;
+	height: 400px;
+	background-color: azure;
+	border-radius: 8px;
+	border-color: grey;
+	border-style: solid;
+	border-width: 3px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#buttons {
+	position: relative;
+	text-align: center;
+	top: 70px;
+}
+button {
+	width: 100px;
+	height: 30px;
+	font-size: medium;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: aliceblue; 
+}
+
+button:hover {
+	background-color: bisque;
+	
+}
+#topics {
+	height: 50px;
+	background-color: #F26970;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-align: center;
+	padding-top: 20px;  /*why???*/
+}
+#vocabs {
+	text-align: center;
+	font-size: x-large;
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+h2 {
+	margin: 0px;
+	color: white;
+}
+

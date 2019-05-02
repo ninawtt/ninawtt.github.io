@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<!--Created by: Tzu-Ting Wu  - Created on: May 2nd, 2019-->
+<html>
+<head>
+<title>Game Time</title>
+<link href="GameStyles.css" rel="stylesheet" type="text/css">
+<script src="GameScript.js"></script>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="firstCard()">	
+ <div id="content">
+ 	<div id="nav">
+ 		<ul>
+ 			<li><button>EN</button></li>
+ 			<li><button>CH</button></li>
+ 		</ul>
+ 	</div>
+	<div id="cards">
+		<div id="topics">
+			<h2 id="topicsTxt"></h2>
+		</div>
+		<div id="vocabs">
+			<p id="vocabsTxt"></p>
+		</div>
+	</div>
+	<div id="buttons">
+		<button onclick="prevCard()" ><i class="fa fa-chevron-circle-left fa-lg">&nbsp;PREV</i></button>&nbsp;&nbsp;&nbsp;&nbsp;
+		<button onclick="nextCard()"><i class="fa fa-chevron-circle-right fa-lg">&nbsp;NEXT</i></button>
+	</div>
+ </div>
+
+
+</body>
+</html>
