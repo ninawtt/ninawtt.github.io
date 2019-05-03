@@ -1,11 +1,11 @@
 ﻿#content {
 	display: block;
-	width: 900px;
-	height: 600px;
+	height: 650px;
 	background-color: lightyellow;
 	border-radius: 5px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 20px;
 }
 #nav {
 	float: left;
@@ -19,17 +19,15 @@
 	border-color: grey;
 	border-style: solid;
 	border-width: 3px;
-	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	top: 50px;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #buttons {
-	position: relative;
 	text-align: center;
 	top: 70px;
+	padding-top: 10px;
 }
 button {
 	width: 100px;
@@ -64,4 +62,7 @@ h2 {
 	margin: 0px;
 	color: white;
 }
-
+body {
+	margin: 0px!important;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
