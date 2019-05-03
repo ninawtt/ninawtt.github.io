@@ -36,6 +36,7 @@ button {
 	border-radius: 5px;
 	cursor: pointer;
 	background-color: aliceblue; 
+	margin: 5px;
 }
 
 button:hover {
