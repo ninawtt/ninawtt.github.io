@@ -1,43 +1,53 @@
-﻿
-var indexOfCards = 0;
-var langEn = true;
+﻿var langEn = true;
 var cards = EN_CARDS;
+var indexOfCards, cardsHistory, indexOfHistory;
+initial();
+
+function initial() {
+	indexOfCards = getRdnCardIndex();
+	cardsHistory = [indexOfCards];
+	indexOfHistory = 0;
+}
+
+function getRdnCardIndex() {
+	return Math.floor(Math.random() * (cards.length - 1));
+}
 
 function changeToEn() {
 	langEn = true, cards = EN_CARDS;
-	firstCard();
+	displayCard();
 }
 
 function changeToCh() {
 	langEn = false, cards = CH_CARDS;
-	firstCard();
+	displayCard();
 }
 
 function firstCard() {
-	indexOfCards = 0;
 	displayCard();
 }
 
 function prevCard() {
-	if (indexOfCards != 0) {
-		indexOfCards--;
-		displayCard();
+	if (indexOfHistory == 0) {
+		indexOfCards = cardsHistory[indexOfHistory];
 	}
 	else {
-		indexOfCards = cards.length - 1;
-		displayCard();
-	}	
+		indexOfCards = cardsHistory[indexOfHistory - 1];
+		indexOfHistory--;
+	}
+	displayCard();
 }
 
 function nextCard() {
-	if (indexOfCards != (cards.length - 1)) {
-		indexOfCards ++;
-		displayCard();
-	}	
-	else {
-		indexOfCards = 0;
-		displayCard();
+	if (indexOfHistory == (cardsHistory.length - 1)) {
+		indexOfCards = getRdnCardIndex();
+		cardsHistory.push(indexOfCards);
 	}
+	else {
+		indexOfCards = cardsHistory[indexOfHistory + 1];
+	}
+	indexOfHistory++;
+	displayCard();
 }
 
 function displayVocabs() {
