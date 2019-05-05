@@ -1,4 +1,4 @@
-﻿header {
+header {
 	height: 35px;
 	background-color: rgb(186, 243, 186);
 	text-align: center;
@@ -36,8 +36,9 @@ header a:visited {
 	padding: 5px;
 }
 #cards {
-	width: 300px;
-	height: 400px;
+	width: 680px;
+    height: 500px;
+    line-height: 35px;
 	background-color: azure;
 	border-radius: 8px;
 	border-color: grey;
@@ -75,13 +76,20 @@ button:hover {
 	text-align: center;
 	padding-top: 20px;  /*why???*/
 }
-#vocabs {
-	text-align: center;
-	font-size: x-large;
+#questions {
+	text-align: left;
+    font-size: x-large;
 }
+
+#questions ul {
+    list-style-type: square;
+    padding-left: 30px;
+}
+
 ul {
 	list-style-type: none;
-	padding: 0px;
+    padding: 0px;
+    padding-left: 10px;
 }
 h2 {
 	margin: 0px;

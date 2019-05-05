@@ -1,11 +1,11 @@
-﻿<!DOCTYPE html>
-<!--Created by: Tzu-Ting Wu  - Created on: May 2nd, 2019-->
+<!DOCTYPE html>
+<!-- Created by: Tzu-Ting Wu - Created on: May 5th, 2019-->
 <html>
 <head>
-<title>Game Time</title>
-<link href="GameStyles.css" rel="stylesheet" type="text/css">
+<title>IELTS Speaking Practice</title>
+<link href="IeltsStyles.css" rel="stylesheet" type="text/css">
 <script src="Cards.js"></script>
-<script src="GameScript.js"></script>
+<script src="IeltsScript.js"></script>
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -15,16 +15,17 @@
  <div id="content">
  	<div id="nav">
  		<ul>
- 			<li><button onclick="changeToEn()">EN</button></li>
- 			<li><button onclick="changeToCh()">CH</button></li>
+ 			<li><button onclick="changeToPartI()">Part I</button></li>
+             <li><button onclick="changeToPartII()">Part II</button></li>
+             <li><button onclick="changeToPartIII()">Part III</button></li>
  		</ul>
  	</div>
 	<div id="cards">
 		<div id="topics">
 			<h2 id="topicsTxt"></h2>
 		</div>
-		<div id="vocabs">
-			<p id="vocabsTxt"></p>
+		<div id="questions">
+			<p id="questionsTxt"></p>
 		</div>
 	</div>
 	<div id="buttons">
