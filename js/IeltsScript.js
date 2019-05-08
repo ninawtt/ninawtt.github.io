@@ -60,7 +60,7 @@ function nextCard() {
 
 function displayQuestions() {
 	var vocabs = cards[indexOfCards].questions;
-    var txt = "<ul>";
+    var txt = "<ol>";
     if (cards == IELTS_PARTII) {
         txt += "You should say:";
         for (var i = 0; i < vocabs.length; i++){
@@ -76,7 +76,8 @@ function displayQuestions() {
 }
 
 function displayCard() {
-	document.getElementById("topicsTxt").innerHTML = cards[indexOfCards].topic;
+	document.getElementById("topicsTxt").innerHTML = cards[indexOfCards].topic + "&nbsp;" + "<" +
+		cards[indexOfCards].questions.length + ">";
 	document.getElementById("questionsTxt").innerHTML = displayQuestions();
 }
 		
