@@ -1,5 +1,4 @@
 header {
-	height: 35px;
 	background-color: rgb(186, 243, 186);
 	text-align: center;
 	font-size: 20px;
@@ -37,7 +36,7 @@ header a:visited {
 }
 #cards {
 	width: 680px;
-    height: 500px;
+	min-height: 400px;
     line-height: 35px;
 	background-color: azure;
 	border-radius: 8px;
@@ -54,9 +53,24 @@ header a:visited {
 	top: 70px;
 	padding-top: 10px;
 }
+
+#searchBar {
+	float: right;
+	padding: 5px;
+	margin-right: 20px;
+}
+
+#search {
+	background-image: url('../images/search.png');
+	background-repeat: no-repeat;
+	background-size: 25px 25px;
+	background-position: 0px;
+	padding: 5px 5px 5px 28px;
+}
+
 button {
-	width: 100px;
-	height: 30px;
+	width: 200px;
+	height: 60px;
 	font-size: medium;
 	border-radius: 5px;
 	cursor: pointer;
@@ -69,12 +83,11 @@ button:hover {
 	
 }
 #topics {
-	height: 50px;
 	background-color: #F26970;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	text-align: center;
-	padding-top: 20px;  /*why???*/
+	padding: 10px;
 }
 #questions {
 	text-align: left;

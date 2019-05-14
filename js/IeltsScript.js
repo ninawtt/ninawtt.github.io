@@ -16,23 +16,23 @@ function getRdnCardIndex() {
 function changeToPartI() {
     initial();
     cards = IELTS_PARTI;
-	displayCard();
+	displayCard(indexOfCards);
 }
 
 function changeToPartII() {
     initial();
     cards = IELTS_PARTII;
-	displayCard();
+	displayCard(indexOfCards);
 }
 
 function changeToPartIII() {
     initial();
     cards = IELTS_PARTIII;
-	displayCard();
+	displayCard(indexOfCards);
 }
 
 function firstCard() {
-	displayCard();
+	displayCard(indexOfCards);
 }
 
 function prevCard() {
@@ -43,7 +43,7 @@ function prevCard() {
 		indexOfCards = cardsHistory[indexOfHistory - 1];
 		indexOfHistory--;
 	}
-	displayCard();
+	displayCard(indexOfCards);
 }
 
 function nextCard() {
@@ -55,11 +55,11 @@ function nextCard() {
 		indexOfCards = cardsHistory[indexOfHistory + 1];
 	}
 	indexOfHistory++;
-	displayCard();
+	displayCard(indexOfCards);
 }
 
-function displayQuestions() {
-	var vocabs = cards[indexOfCards].questions;
+function displayQuestions(index) {
+	var vocabs = cards[index].questions;
     var txt = "<ol>";
     if (cards == IELTS_PARTII) {
         txt += "You should say:";
@@ -75,9 +75,27 @@ function displayQuestions() {
 	return txt;
 }
 
-function displayCard() {
-	document.getElementById("topicsTxt").innerHTML = cards[indexOfCards].topic + "&nbsp;" + "<" +
-		cards[indexOfCards].questions.length + ">";
-	document.getElementById("questionsTxt").innerHTML = displayQuestions();
+function displayCard(index) {
+	document.getElementById("topicsTxt").innerHTML = cards[index].topic + "&nbsp;" + "<" +
+		cards[index].questions.length + ">";
+	document.getElementById("questionsTxt").innerHTML = displayQuestions(index);
+}
+
+function displayCardByFilter() {
+	var input = document.getElementById("search").value.toUpperCase();
+	var matchIndexList =[];
+	for (var i = 0; i < cards.length; i++) {
+		if (cards[i].topic.toUpperCase().indexOf(input) >= 0 ) {
+			matchIndexList.push(i);	
+		}
+	}
+	if (matchIndexList.length > 0) {
+		displayCard(matchIndexList[0]);
+	}
+	for (var i = 0; i < matchIndexList.length; i++) {
+		if (cards[matchIndexList[i]].topic.toUpperCase() === input.toUpperCase()) {
+			displayCard(matchIndexList[i]);
+		}
+	}
 }
 		
