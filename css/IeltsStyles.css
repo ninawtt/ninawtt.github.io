@@ -34,6 +34,11 @@ header a:visited {
 	float: left;
 	padding: 5px;
 }
+.navBtn {
+	width: 100px;
+	height: 30px;
+}
+
 #cards {
 	width: 680px;
 	min-height: 400px;
@@ -54,10 +59,16 @@ header a:visited {
 	padding-top: 10px;
 }
 
+.arrowBtn {
+	width: 200px;
+	height: 60px;
+}
+
 #searchBar {
 	float: right;
 	padding: 5px;
 	margin-right: 20px;
+	margin-top : -38px;
 }
 
 #search {
@@ -69,8 +80,6 @@ header a:visited {
 }
 
 button {
-	width: 200px;
-	height: 60px;
 	font-size: medium;
 	border-radius: 5px;
 	cursor: pointer;
