@@ -103,10 +103,14 @@ button:hover {
     font-size: x-large;
 }
 
-#questions ul {
+#questions ol {
+	padding-left: 50px;
+}
+
+/* #questions ul {
     list-style-type: square;
     padding-left: 30px;
-}
+} */
 
 ul {
 	list-style-type: none;
