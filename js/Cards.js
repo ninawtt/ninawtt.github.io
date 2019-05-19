@@ -12,14 +12,14 @@ var EN_CARDS = [
 ];
 
 var CH_CARDS = [
-	{ topic: "教室", vocabs: ["書桌", "學生", "老師", "學校", "學習"] },
-	{ topic: "聖誕節", vocabs: ["十二月", "聖誕老公公", "樹", "禮物", "慶祝"] },
-	{ topic: "閃電", vocabs: ["濕", "雨", "雷聲", "閃電", "雨傘"] },
-	{ topic: "水壺", vocabs: ["喝", "渴", "熱", "運動", "裝水"] },
-	{ topic: "頭", vocabs: ["臉", "腳趾", "部位", "身體", "軀幹"] },
-	{ topic: "肥皂", vocabs: ["乾淨", "多芬", "橘子皮", "洗澡", "灰塵"] },
-	{ topic: "溜滑梯", vocabs: ["公園", "往下", "小孩", "滑", "照片"] },
-	{ topic: "發燒", vocabs: ["生病", "不舒服的", "溫度計", "著涼", "流汗"] },
-	{ topic: "派對", vocabs: ["慶祝", "生日", "新年", "有趣", "周末"] },
-	{ topic: "炒蛋", vocabs: ["歐姆蕾", "蛋黃", "白色", "黃色", "早餐"] }
+	{ topic: "教室", vocabs: ["Shūzhuō,书桌", "Xuéshēng,学生", "Lǎoshī,老师", "Xuéxiào,学校", "Xuéxí,学习"] },
+	{ topic: "聖誕節", vocabs: ["Shí'èr yuè,十二月", "Shèngdàn lǎogōnggōng,聖誕老公公", "Shù,树", "Lǐwù,礼物", "Qìngzhù,庆祝"] },
+	{ topic: "閃電", vocabs: ["Shī,湿", "Yǔ,雨", "Léi shēng,雷声 ", "Shǎndiàn,闪电", "Yǔsǎn,雨伞"] },
+	{ topic: "水壺", vocabs: ["Hē,喝", "Kě,渴", "Rè,热", "Yùndòng,运动", "Zhuāng shuǐ,装水"] },
+	{ topic: "頭", vocabs: ["Liǎn,脸", "Jiǎozhǐ,脚趾", "Bùwèi,部位", "Shēntǐ,身体", "Qūgàn,躯干"] },
+	{ topic: "肥皂", vocabs: ["Gānjìng,干净", "Duō fēn,多芬", "Júzi pí,橘子皮", "Xǐzǎo,洗澡", "Huīchén,灰尘"] },
+	{ topic: "溜滑梯", vocabs: ["Gōngyuán,公园", "Wǎng xià,往下", "Xiǎohái,小孩", "Huá,滑", "Zhàopiàn,照片"] },
+	{ topic: "發燒", vocabs: ["Shēngbìng,生病", "Bú shūfú de,不舒服的 ", " Wēndùjì,温度计", "Zháoliáng,着凉", "Liú hàn,流汗"] },
+	{ topic: "派對", vocabs: ["Qìngzhù,庆祝", "Shēngrì,生日", "Xīnnián,新年", "Yǒuqù,有趣", "Zhōumò,周末"] },
+	{ topic: "炒蛋", vocabs: ["Ōumǔ lěi,欧姆蕾", "Dànhuáng,蛋黄", "Báisè,白色", "Huángsè,黄色", "Zǎocān,早餐"] }
 ];
