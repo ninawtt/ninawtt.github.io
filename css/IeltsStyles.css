@@ -107,16 +107,12 @@ button:hover {
 	padding-left: 50px;
 }
 
-/* #questions ul {
-    list-style-type: square;
-    padding-left: 30px;
-} */
-
 ul {
 	list-style-type: none;
     padding: 0px;
     padding-left: 10px;
 }
+
 h2 {
 	margin: 0px;
 	color: white;

@@ -53,9 +53,22 @@ function nextCard() {
 function displayVocabs() {
 	var vocabs = cards[indexOfCards].vocabs;
 	var txt = "<ul>";
-	for (var i = 0; i < vocabs.length; i++){
-		txt += "<li>" + vocabs[i] + "</li>" + "<br>"; 
-	} 		    
+	if (langEn == true) {
+		for (var i = 0; i < vocabs.length; i++){
+			txt += "<li>" + vocabs[i] + "</li>" + "<br>"; 
+		} 
+	}
+	else {
+		for (var i = 0; i < vocabs.length; i++){
+			var vocabArray = vocabs[i].split(",");
+			txt += "<li>" + 
+			"<div class = 'pinyinVocab'>" + vocabArray[0] + "</div>" +
+			"<div class = 'chineseVocab'>" + vocabArray[1] + "</div>" +
+			"<div class = 'englishVocab'>" + EN_CARDS[indexOfCards].vocabs[i] + "</div>" +
+			"</li>" + "<br>"; 
+		} 
+	}
+			    
 	return txt;
 }
 
@@ -63,4 +76,5 @@ function displayCard() {
 	document.getElementById("topicsTxt").innerHTML = cards[indexOfCards].topic.toUpperCase();
 	document.getElementById("vocabsTxt").innerHTML = displayVocabs().toUpperCase();
 }
+
 		

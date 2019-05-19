@@ -1,5 +1,5 @@
 ﻿header {
-	height: 35px;
+	/* height: 35px; */
 	background-color: rgb(186, 243, 186);
 	text-align: center;
 	font-size: 20px;
@@ -24,7 +24,7 @@ header a:visited {
 
 #content {
 	display: block;
-	height: 650px;
+	/* height: 650px; */
 	background-color: lightyellow;
 	border-radius: 5px;
 	margin-left: auto;
@@ -36,8 +36,8 @@ header a:visited {
 	padding: 5px;
 }
 #cards {
-	width: 300px;
-	height: 400px;
+	width: 500px;
+	height: 500px;
 	background-color: azure;
 	border-radius: 8px;
 	border-color: grey;
@@ -90,4 +90,25 @@ h2 {
 body {
 	margin: 0px!important;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.PINYINVOCAB {
+	font-size: medium;
+	display: inline-block;
+	width: 18%;
+}
+
+.CHINESEVOCAB {
+	display: inline-block;
+	width: 50%;
+}
+
+.ENGLISHVOCAB {
+	font-size: medium;
+	display: inline-block;
+	width: 22%;
+}
+
+#enTrans {
+	float: right;
 }
