@@ -10,7 +10,7 @@ function initial() {
 }
 
 function getRdnCardIndex() {
-	return Math.floor(Math.random() * (cards.length - 1));
+	return Math.floor(Math.random() * (cards.length));
 }
 
 function changeToEn() {
