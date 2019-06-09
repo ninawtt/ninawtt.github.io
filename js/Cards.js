@@ -1,7 +1,8 @@
 var EN_CARDS = [
-    { topic: "work", vocabs:["deserve", "salary", "coworker", "environment", "boss"]},
+    { topic: "work1", vocabs:["deserve", "salary", "coworker", "environment", "boss"]},
     { topic: "work2", vocabs:["manager", "subordinate", "benefit", "coffee break", "snack"]},
-    { topic: "work3", vocabs:["department", "commute", "working hours", "meeting", "present"]}
+    { topic: "work3", vocabs:["department", "commute", "working hours", "meeting", "present"]},
+    { topic: "restaurant", vocabs:["refill", "reservation", "server", "tissue", "all you can eat"]}
 //	{ topic: "classroom", vocabs: ["desk", "student", "teacher", "school", "learn"] },
 //	{ topic: "christmas", vocabs: ["december", "santa", "tree", "presents", "celebrate"] },
 //	{ topic: "lighting", vocabs: ["wet", "rain", "thunder", "bolt", "umbrella"] },
@@ -15,9 +16,10 @@ var EN_CARDS = [
 ];
 
 var CH_CARDS = [
-    { topic: "工作1", vocabs:["Zhídé,值得", "Xīnshuǐ,薪水", "Tóngshì,同事", "Huánjìng,环境", "Lǎobǎn, 老板"]},
-    { topic: "工作2", vocabs:["Zhǔguǎn,主管", "Xiàshǔ,下属", "Fúlì,福利", "Xiàwǔ chá,下午茶 ", "Língshí,零食"]},
-    { topic: "工作3", vocabs:["Bùmén,部门", "Tōngqín,通勤", "Gōngshí,工时", "Kāihuì,开会 ", "Bàogào,报告"]}
+    { topic: "Gōngzuò 工作1", vocabs:["Zhídé,值得", "Xīnshuǐ,薪水", "Tóngshì,同事", "Huánjìng,环境", "Lǎobǎn, 老板"]},
+    { topic: "Gōngzuò 工作2", vocabs:["Zhǔguǎn,主管", "Xiàshǔ,下属", "Fúlì,福利", "Xiàwǔ chá,下午茶 ", "Língshí,零食"]},
+    { topic: "Gōngzuò 工作3", vocabs:["Bùmén,部门", "Tōngqín,通勤", "Gōngshí,工时", "Kāihuì,开会 ", "Bàogào,报告"]},
+    { topic: "Cāntīng 餐厅", vocabs:["Xù bēi,续杯", "Dìng wèi,订位", "Fúwù shēng,服务生", "Zhǐjīn,纸巾", "Chī dào bǎo,吃到饱"]}
 //	{ topic: "教室", vocabs: ["Shūzhuō,书桌", "Xuéshēng,学生", "Lǎoshī,老师", "Xuéxiào,学校", "Xuéxí,学习"] },
 //	{ topic: "聖誕節", vocabs: ["Shí'èr yuè,十二月", "Shèngdàn lǎogōnggōng,聖誕老公公", "Shù,树", "Lǐwù,礼物", "Qìngzhù,庆祝"] },
 //	{ topic: "閃電", vocabs: ["Shī,湿", "Yǔ,雨", "Léi shēng,雷声 ", "Shǎndiàn,闪电", "Yǔsǎn,雨伞"] },
