@@ -1,6 +1,7 @@
 ﻿var langEn = true;
 var cards = EN_CARDS;
-var indexOfCards, cardsHistory, indexOfHistory;
+var indexOfCards, indexOfHistory;
+var cardsHistory = [];
 initial();
 
 function initial() {
@@ -10,16 +11,22 @@ function initial() {
 }
 
 function getRdnCardIndex() {
-	return Math.floor(Math.random() * (cards.length));
+  var randomNumber = Math.floor(Math.random() * (cards.length));
+  if (cardsHistory.length > 1) {
+    while (cardsHistory[cardsHistory.length - 1] === randomNumber) {
+      randomNumber = Math.floor(Math.random() * (cards.length));
+    }
+  }
+  return randomNumber;
 }
 
 function changeToEn() {
-	langEn = true, cards = EN_CARDS;
+	langEn = true; cards = EN_CARDS;
 	displayCard();
 }
 
 function changeToCh() {
-	langEn = false, cards = CH_CARDS;
+	langEn = false; cards = CH_CARDS;
 	displayCard();
 }
 
