@@ -71,14 +71,6 @@ header a:visited {
 	margin-top : -38px;
 }
 
-#search {
-	background-image: url('../images/search.png');
-	background-repeat: no-repeat;
-	background-size: 25px 25px;
-	background-position: 0px;
-	padding: 5px 5px 5px 28px;
-}
-
 button {
 	font-size: medium;
 	border-radius: 5px;
@@ -97,6 +89,7 @@ button:hover {
 	border-top-right-radius: 5px;
 	text-align: center;
 	padding: 10px;
+	
 }
 #questions {
 	text-align: left;

@@ -4,6 +4,7 @@
 <head>
 <title>IELTS Speaking Practice</title>
 <link href="css/IeltsStyles.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <script src="js/IELTSCards.js"></script>
 <script src="js/IeltsScript.js"></script>
 <!-- Add icon library -->
@@ -21,8 +22,13 @@
  		</ul>
 	</div>
 	<div id="searchBar">
-		<input type="text" id="search" onkeyup="displayCardByFilter()" placeholder="Search for topics..." title="Type in a topic">
+		<div class="input-group mb-3">
+			<input type="text" id="search" class="form-control" onkeyup="displayCardByFilter()" placeholder="Search for topics..." title="Type in a topic">	
+		</div>
 	</div>
+	<!-- <div id="searchBar">
+		<input type="text" id="search" onkeyup="displayCardByFilter()" placeholder="Search for topics..." title="Type in a topic">
+	</div> -->
 	<div id="cards">
 		<div id="topics">
 			<div><h2 id="topicsTxt"></h2></div>

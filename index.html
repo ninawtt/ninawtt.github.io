@@ -5,6 +5,7 @@
 <title>Game Time</title>
 <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
 <link href="css/GameStyles.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <script src="js/Cards.js"></script>
 <script src="js/GameScript.js"></script>
 <!-- Add icon library -->
@@ -19,7 +20,12 @@
  			<li><button onclick="changeToEn()">EN</button></li>
  			<li><button onclick="changeToCh()">CH</button></li>
  		</ul>
- 	</div>
+	</div>
+	<div id="searchBar">
+		<div class="input-group mb-3">
+			<input type="text" id="search" class="form-control" onkeyup="displayCardByFilter()" placeholder="Search for topics..." title="Type in a topic">	
+		</div>
+	</div>
 	<div id="cards">
 		<div id="topics">
 			<h2 id="topicsTxt"></h2>

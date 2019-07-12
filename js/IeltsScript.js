@@ -81,17 +81,22 @@ function displayCard(index) {
 	document.getElementById("questionsTxt").innerHTML = displayQuestions(index);
 }
 
+// Search Bar
 function displayCardByFilter() {
 	var input = document.getElementById("search").value.toUpperCase();
 	var matchIndexList =[];
+
+	// Search the index of specific input and save it into a matchIndexList array
 	for (var i = 0; i < cards.length; i++) {
 		if (cards[i].topic.toUpperCase().indexOf(input) >= 0 ) {
 			matchIndexList.push(i);	
 		}
 	}
+	// Display the first card in the matchIndexList if it has any
 	if (matchIndexList.length > 0) {
 		displayCard(matchIndexList[0]);
 	}
+	// If there are more than two cards fit, this method will display the exactly same topic as the input 
 	for (var i = 0; i < matchIndexList.length; i++) {
 		if (cards[matchIndexList[i]].topic.toUpperCase() === input.toUpperCase()) {
 			displayCard(matchIndexList[i]);

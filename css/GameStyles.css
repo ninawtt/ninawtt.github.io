@@ -24,7 +24,7 @@ header a:visited {
 
 #content {
 	display: block;
-	/* height: 650px; */
+	height: 650px;
 	background-color: lightyellow;
 	border-radius: 5px;
 	margin-left: auto;
@@ -68,12 +68,12 @@ button:hover {
 	
 }
 #topics {
-	height: 50px;
+	/* height: 50px; */
 	background-color: #F26970;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	text-align: center;
-	padding-top: 20px;  /*why???*/
+	padding: 10px;
 }
 #vocabs {
 	text-align: center;
@@ -111,4 +111,11 @@ body {
 
 #enTrans {
 	float: right;
+}
+
+#searchBar {
+	float: right;
+	padding: 5px;
+	margin-right: 20px;
+	margin-top : -38px;
 }
