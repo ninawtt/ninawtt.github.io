@@ -1,0 +1,57 @@
+﻿h1 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.property{
+	display: inline-flex;
+	width: 750px;
+	border: 1px ridge #DFDFDF;
+	margin-bottom: 8px;
+	margin-top: 12px;
+}
+
+.propertyImg {
+	padding: 5px;
+	margin: 5px;
+}
+.propertyTxt {
+	padding: 5px;
+	margin: 5px;
+	width: 350px;
+}
+.price {
+	padding: 5px;
+	margin: 5px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: xx-large;
+	font-weight: bolder;
+	text-align: center;
+	width: 170px;
+}
+
+.gapline {
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	height: 5px;
+	width: 280px;
+	margin-bottom: 5px;
+}
+.propertyTxt span{
+	font-size: medium;
+	line-height:22px;
+}
+.property a {
+	text-decoration: none;
+}
+.propertyName {
+	font-size: x-large;
+	font-weight: bolder;
+}
+
+h4 {
+	vertical-align: top;
+	text-align: left;
+}
+.button {
+ cursor:pointer;
+}

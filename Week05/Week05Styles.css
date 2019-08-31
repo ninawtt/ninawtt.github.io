@@ -1,0 +1,56 @@
+﻿body {
+	color: gray;
+	background-color: #E6E6FA;
+}
+h3 {
+	color: #49166D;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	text-transform: capitalize;
+	font-variant: small-caps;
+}
+h4 {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	color: #49166D; /*Tekus dark purple*/
+	font-variant: small-caps;
+	text-transform: capitalize;
+}
+td {
+	vertical-align: top;
+}
+#Contact us {
+	vertical-align: bottom;
+	text-align: right;
+}
+#ContactUs {
+	vertical-align: bottom;
+	text-align: right;
+}
+a {
+	text-decoration: none;
+	color: #49166D;
+}
+a:hover {
+	background-color: #D9FFB3;
+}
+.oddRow { /*CSS class*/
+	background-color: #D9FFB3; /*light green*/
+}
+.evenRow {
+	background-color: #FFFFFF;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#phonesTable {
+	border: medium dotted #49166D;
+	/*equivalent for:
+	border-style:dotted;
+	border-width:medium;
+	border-color:#49166D;
+	*/
+}
+ul {
+	list-style-image: url('images/aball.gif');
+}

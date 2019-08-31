@@ -1,0 +1,174 @@
+﻿#allPage {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(images/california.jpg);
+    height: 668px;
+}
+
+
+/* nav */
+ul {
+    list-style-type: none;
+    background-color: rgba( 32, 36, 38, 0.5);
+    margin-top: 0px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none !important;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+li a:hover {
+    background-color: #ffc107;
+    color: black !important;
+}
+
+li a:active {
+    color: black;
+}
+
+li a:visited {
+    color: white;
+}
+
+/* formDiv container */
+#formDiv {
+    width: 45%;
+    height: 588px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    border: groove;
+    border-radius: 3%;
+    box-shadow: initial;
+    padding: 5px;
+    background-color: rgb(222, 188, 192, 0.7);
+}
+
+#formDiv h3 {
+    margin-bottom: 0px !important;
+    padding-top: 5px;
+}
+
+
+#formDiv hr, p {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+/* accountDiv container */
+#accountDiv {
+    width: 45%;
+    height: 588px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    border: groove;
+    border-radius: 3%;
+    box-shadow: initial;
+    padding: 5px;
+    background-color: rgba(253, 229, 127, 0.7);
+    display: none;
+}
+
+#accountDiv h3 {
+    margin-bottom: 10px !important;
+    padding-top: 30px;
+}
+
+#accountDiv h5 {
+    margin-top: 10px;
+}
+
+#accountDiv hr, p {
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+}
+
+#accountDiv img {
+    width: 10%;
+    margin-top: 10px;
+}
+
+
+/* table */
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left !important;
+}
+
+td {
+    padding-right: 5px;
+    padding-top: 0px !important;
+    height: 40px;
+    width: 170px;
+}
+
+input[type=text] {
+    width: 250px;
+}
+
+select {
+    text-align-last: center;
+    width: 100px;
+}
+
+/* submitForm */
+#submitForm {
+    margin-top: 10px;
+}
+
+#submitBtn, #clearBtn {
+    margin-right: 10px;
+    margin-top: -10px;
+    width: 125px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    color: RGB(224,183,86);
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* error message */
+/*#errMsg {
+    color: red;
+    font-size: small;
+    height: 20px;
+}*/
+
+.errStar {
+    width: 50px;
+    color: rgb(214, 8, 8);
+    font-weight: bold;
+    float: right;
+    margin-right: -38px;
+    margin-bottom: 6px;
+}
+
+.errDt {
+    float: left;
+    font-size: x-small;
+    margin-top: 20px;
+    margin-right: -138px;
+    color: rgb(214, 8, 8);
+    font-weight: bold;
+}

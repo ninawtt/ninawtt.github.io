@@ -1,0 +1,26 @@
+﻿h1 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.siteMap{
+	display:inline-flex;
+	font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.siteMap div{
+	width: 250px;
+}
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-image: url('images/bullet_right.png');
+	text-decoration: none;
+	line-height: 25px;
+}
+ul a:hover {
+	transition: 1s;
+	text-decoration: underline;
+}

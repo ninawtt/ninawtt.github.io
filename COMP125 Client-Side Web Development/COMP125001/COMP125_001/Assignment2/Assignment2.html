@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<!--Created by: Tzu-Ting Wu - Created on: May 30, 2019--> 
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Draw A Table!</title>
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="Assignment2Styles.css" rel="stylesheet" />
+    <link href="bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="allPage">
+        <div id="nav">
+            <ul>
+                <li><a href="../../../../index.html">Home</a></li>
+                <li><a href="../Assignment1/Assignment1.html">Assignment 1</a></li>
+                <li><a href="#">Assignment 2</a></li>
+                <li><a href="../Assignment3/Assignment3.html">Assignment 3</a></li>
+                <li><a href="../Assignment4/Membership.html"">Assignment 4</a></li>
+                <li><a href="../Assignment5/Assignment5.html">Assignment 5</a></li>
+                <li><a href="../Assignment6/Assignment6.html">Assignment 6</a></li>
+            </ul>
+        </div>
+        <div id="container">
+            <h2>Let's Draw Your Table</h2>
+            <label for="rows">Set Rows: </label>
+            <input type="number" id="rows" class="form-control form-control-sm" min="1" value ="15"><br />
+            <label for="cols">Set columns: </label>
+            <input type="number" id="cols" class="form-control form-control-sm" min="1" value ="15"><br />
+            <button type="button" id="btn" class="btn btn-outline-warning" onclick="generateTable()">Draw A Table</button>
+            <div id="tableDiv"></div>
+        </div>
+    </div>
+    
+    <footer>&copy;&nbsp;Copyright Tzu-Ting Wu COMP125 - Assignment 2 - Summer 2019</footer>
+    <script src="Assignment2.js"></script>
+</body>
+</html>

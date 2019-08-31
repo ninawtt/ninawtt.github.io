@@ -1,0 +1,12 @@
+﻿#gallery span {
+	display: none;
+}
+#gallery ul {
+	list-style-type: none;
+}
+#gallery a:hover span {
+	display: block;
+	text-align: center;
+	top: 250px;
+	left: 200px;
+}

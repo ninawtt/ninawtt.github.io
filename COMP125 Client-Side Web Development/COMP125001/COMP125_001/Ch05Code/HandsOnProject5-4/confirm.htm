@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 6th Edition
+      Chapter 5
+      Hands-on Project 5-4
+
+      Author: 
+      Date:   
+
+      Filename: index.htm
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Confirmation</title>
+   <style>
+      body {
+         text-align: center;
+      }
+      #closeB {
+         display: inline-block;
+         background: green;
+         color: white;
+         font-size: 10pt;
+         padding: 5px;
+      }
+      #closeB:hover {
+         cursor: default;
+      }
+   </style>
+</head>
+
+<body>
+   <p>Your address has been updated.</p>
+   <p id="closeB">Close</p>
+   <script>
+      "use strict";
+      function closeWindow() {
+         window.close();
+      }
+      
+      // add event listener to Close button
+      function createEventListener() {
+         var closeButton = document.getElementById("closeB");
+         if (closeButton.addEventListener) {
+           closeButton.addEventListener("click", closeWindow, false); 
+         } else if (closeButton.attachEvent)  {
+           closeButton.attachEvent("onclick", closeWindow);
+         }
+      }
+      
+      if (window.addEventListener) {
+        window.addEventListener("load", createEventListener, false); 
+      } else if (window.attachEvent)  {
+        window.attachEvent("onload", createEventListener);
+      }
+   </script>
+</body>
+</html>

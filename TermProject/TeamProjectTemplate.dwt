@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<!--Created by: Tzu-Ting Wu - Created on: April 4th, 2019 -->
+<html lang="en" dir="ltr">
+
+<head>
+<meta content="en" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<!-- #BeginEditable "doctitle" -->
+<title>Team Project Template</title>
+<!-- #EndEditable -->
+<link href="TermProjectStyles.css" rel="stylesheet" type="text/css">
+
+<!-- Add icon library (facebook and twitter)-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+</style>
+<script type="text/javascript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'images/buttons/button1AC.jpg',/*url*/'images/buttons/button1AD.jpg',/*url*/'images/buttons/button1AF.jpg',/*url*/'images/buttons/button1B0.jpg',/*url*/'images/buttons/button1B2.jpg',/*url*/'images/buttons/button1B3.jpg',/*url*/'images/buttons/button1B5.jpg',/*url*/'images/buttons/button1B6.jpg',/*url*/'images/buttons/button188.jpg',/*url*/'images/buttons/button189.jpg')">
+
+<div id="allPage">
+<div id="header" style="width: 980px; height: 250px; z-index: 1">
+	<img id="logo" alt="Right At Home Logo" height="77" src="images/companylogo.gif" width="100">
+	<div id="agentName">Brian Hendry</div>
+	<div class="headerTitle">
+		<div id="textNav"><a href="Home.html">&nbsp;&nbsp;Home</a>&nbsp;&nbsp;|<a href="AboutBrian.html">&nbsp;&nbsp;About&nbsp;Brian</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="PropertyListings.html">Property&nbsp;Listings</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="Contact.html">Contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="SiteMapandCreditsPage.html">Site&nbsp;Map</a>&nbsp;&nbsp;|
+		&nbsp;&nbsp;<!-- Add font awesome icons --><a href="https://www.facebook.com/profile.php?id=100011441344355" class="fa fa-facebook"></a>&nbsp;<a href="https://mobile.twitter.com/torontowrealtor" class="fa fa-twitter"></a>
+</div>
+	</div>
+</div>
+<div id="nav" style="vertical-align: top;display: inline-block;width: 170px;  z-index: 2">
+	<a href="Home.html"><i class="fa fa-home" style="font-size:25px"></i>&nbsp;Home</a><br><br>
+	<a href="AboutBrian.html"><i class="fa fa-user-circle-o" style="font-size:24px"></i>&nbsp;About Brian</a><br><br>
+	<a href="PropertyListings.html"><i class="fa fa-building-o" style="font-size:24px"></i>&nbsp;Property Listings</a><br><br>
+	<a href="Contact.html"><i class="fa fa-phone-square" style="font-size:24px"></i>&nbsp;Contact</a><br><br>
+	<a href="SiteMapandCreditsPage.html"><i class="fa fa-compass" style="font-size:25px"></i>&nbsp;Site Map</a><br><br>
+
+	<!--<div id="buttons">
+		<a href="Home.html">
+		<img id="img13" alt="Home" fp-style="fp-btn: Brick Row 1; fp-font: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif; fp-font-size: 7" fp-title="Home" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img13',/*url*/'images/buttons/button1AD.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img13',/*url*/'images/buttons/button1AB.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img13',/*url*/'images/buttons/button1AC.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img13',/*url*/'images/buttons/button1AC.jpg')" src="images/buttons/button1AB.jpg" style="border: 0" width="150"></a><br>
+		<a href="AboutBrian.html">
+		<img id="img17" alt="About Brian" fp-style="fp-btn: Brick Row 1; fp-font: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif; fp-font-size: 7" fp-title="About Brian" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img17',/*url*/'images/buttons/button189.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img17',/*url*/'images/buttons/button187.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img17',/*url*/'images/buttons/button188.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img17',/*url*/'images/buttons/button188.jpg')" src="images/buttons/button187.jpg" style="border: 0" width="150"></a><br>
+		<a href="PropertyListings.html">
+		<img id="img14" alt="Property Listings" fp-style="fp-btn: Brick Row 1; fp-font: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif; fp-font-size: 7" fp-title="Property Listings" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img14',/*url*/'images/buttons/button1B0.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img14',/*url*/'images/buttons/button1AE.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img14',/*url*/'images/buttons/button1AF.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img14',/*url*/'images/buttons/button1AF.jpg')" src="images/buttons/button1AE.jpg" style="border: 0" width="150"></a><br>
+		<a href="Contact.html">
+		<img id="img15" alt="Contact" fp-style="fp-btn: Brick Row 1; fp-font: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif; fp-font-size: 7" fp-title="Contact" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img15',/*url*/'images/buttons/button1B3.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img15',/*url*/'images/buttons/button1B1.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img15',/*url*/'images/buttons/button1B2.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img15',/*url*/'images/buttons/button1B2.jpg')" src="images/buttons/button1B1.jpg" style="border: 0" width="150"></a><br>
+		<a href="SiteMapandCreditsPage.html">
+		<img id="img16" alt="Site Map" fp-style="fp-btn: Brick Row 1; fp-font: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif; fp-font-size: 7" fp-title="Site Map" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img16',/*url*/'images/buttons/button1B6.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img16',/*url*/'images/buttons/button1B4.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img16',/*url*/'images/buttons/button1B5.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img16',/*url*/'images/buttons/button1B5.jpg')" src="images/buttons/button1B4.jpg" style="border: 0" width="150"></a>
+		</div>-->
+	</div>
+<div id="content" style="display: inline-block;width : 770px;  z-index: 3">
+<!-- #BeginEditable "content" -->
+	<p>(content)</p>
+<!-- #EndEditable -->
+</div>
+<div id="footer" style="width: 980px; height: 70px; z-index: 4">
+	<p><a href="../index.html">back to index</a></p>
+	<p id="copyright">Copyright Tzu-Ting Wu - Term Project - COMP213</p>
+</div>
+</div>
+</body>
+
+</html>

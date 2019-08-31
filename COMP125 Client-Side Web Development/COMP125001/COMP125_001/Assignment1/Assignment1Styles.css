@@ -1,0 +1,186 @@
+﻿
+/* nav */
+ul {
+    list-style-type: none;
+    background-color: lightcoral;
+    margin-top: 0px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: black;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none !important;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+li a:hover {
+    background-color: lemonchiffon;
+    color: black !important;
+}
+
+li a:active {
+    color: black;
+}
+
+li a:visited {
+    color: black;
+}
+
+
+#container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    padding: 3px;
+}
+
+#imperialHead {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif height: 30px;
+    width: 30%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    display: inline-block;
+}
+
+#metricHead {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif height: 30px;
+    width: 30%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    display: inline-block;
+    margin-left: -5px;
+}
+
+#form {
+    background-color: pink;
+    padding: 3%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
+    margin-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#upFormI {
+    padding-left: 25%;
+    line-height: 27px;
+} 
+
+#upFormM {
+    padding-left: 25%;
+    line-height: 27px;
+    display: none;
+}
+
+#midForm {
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+#downForm {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input[type=number] {
+    width: 60px;
+    display: inline-block;
+}
+
+select[name="gender"] {
+    width: 100px;
+}
+
+
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#result {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: none;
+    margin-top: 3%;
+    margin-bottom: 5px;
+    border-color: lightgray;
+    border-style: ridge;
+    text-align: center;
+    padding: 5px;
+    line-height: initial;
+}
+
+#bmrResult, teeResult {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#bmr, #tee {
+    font-size: x-large;
+    color: forestgreen;
+    font-weight: 900;
+}
+
+p {
+    margin-bottom: auto !important;
+    margin-top: 5px !important;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    color: lightcoral;
+    margin-top: 0px;
+    padding-bottom: 5px;
+}
+
+
+/*Change tab function*/
+.tablinks {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: lemonchiffon;
+}
+.tablinksactive {
+    background-color: pink;
+}
+.tablinks:hover {
+    background-color: lightblue !important;
+    transition: 0.3s;
+}
+
+h4 {
+    font-size: 1.2em !important;
+    text-align: left;
+    color: crimson;
+    padding: 5px;
+    margin-bottom: auto !important;
+}
+
+#desc {
+    font-size: 14px;
+    padding-left: 0px;
+}

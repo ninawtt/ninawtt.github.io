@@ -1,0 +1,88 @@
+﻿body {
+    margin: 0px;
+    background-image: url("images/starry.png");
+    color: white !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#allPage {
+    width: 100%;
+    min-height: 600px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: rgba( 32, 36, 38, 0.5);
+    margin-top: 0px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none !important;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+li a:hover {
+    background-color: #ffc107;
+    color: black !important;
+}
+
+li a:active {
+    color: black;
+}
+
+li a:visited {
+    color: white;
+}
+
+#container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input[type=number] {
+    width: 60px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#btn {
+    margin: 10px;
+}
+
+table, tr, td {
+    border: 1px solid lemonchiffon;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+caption {
+    padding-bottom: 5px !important;
+    color: white !important;
+    text-align: center !important;
+    caption-side: top !important;
+}
+
+footer {
+    font-size: x-small;
+    text-align: center;
+    color: #ffc107;
+    margin: 10px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- Created by: Tzu-Ting Wu - Created on: August 10th, 2019-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday, Christy❤</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="index.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Blinker' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Coiny' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Frijole' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="allPage">
+        <div id="HBDTitle">
+            <img src="images/HBDcalligraphy.png">
+        </div>
+        <div id="nav">
+            <ul>
+                <li class="tabLinkActive" onclick="chContent(event, 'home')">HOME</a></li>
+                <li class="tabLinks" onclick="chContent(event, 'story')">OUR STORY</a></li>
+                <li class="tabLinks" onclick="chContent(event, 'gallery')">GALLERY</a></li>
+                <li class="tabLinks" onclick="chContent(event, 'game')">GAME</a></li>
+                <li class="tabLinks" onclick="chContent(event, 'credits')">CREDITS</a></li>
+            </ul>
+        </div>
+        <div id="home" class="tabContent">
+            <img src="images/IMG_1107.jpg">
+        </div>
+        <div id="story" class="tabContent">
+            <div id="dayCounter">
+                <h2>We've been friends for</h2>
+                <div id="years"></div>
+                <div id="months"></div>
+                <div id="days"></div>
+                <div id="hours"></div>
+                <div id="minutes"></div>
+                <div id="seconds"></div>
+            </div>
+            <img src="images/bff.png">
+            <div id="words">
+                <p>
+                    A story of two girls - Christy and Nina.<br>
+                    We met in high school. Since then, we've been good friends.<br>
+                    We share everything in our lives, no matter happy or sorrow.<br>
+                    We have the same last name. We like the same singers. <br>
+                    We have the same values of money, life and relationship.<br>
+                    We even list each other as one of our relatives on Facebook.<br>
+                    We both know that we always are supported by each other.<br>
+                    
+                </p>
+            </div>
+        </div>
+        <div id="gallery" class="tabContent">
+            <img id="camera" src="images/camera.png" width="250px">
+            <img id="bestie" src="images/bestie.png" width="200px">
+            <div id="picDiv">
+                <img id="pic" src="images/bff1.jpg" width="640px" height="480px">
+                <div id="counter">
+                    <li id="index0" onclick="clickToChangePic(0)">●</li>
+                    <li id="index1" onclick="clickToChangePic(1)">○</li>
+                    <li id="index2" onclick="clickToChangePic(2)">○</li>
+                    <li id="index3" onclick="clickToChangePic(3)">○</li>
+                    <li id="index4" onclick="clickToChangePic(4)">○</li>
+                    <li id="index5" onclick="clickToChangePic(5)">○</li>
+                    <li id="index6" onclick="clickToChangePic(6)">○</li>
+                    <li id="index7" onclick="clickToChangePic(7)">○</li>
+                    <li id="index8" onclick="clickToChangePic(8)">○</li>
+                    <li id="index9" onclick="clickToChangePic(9)">○</li>
+                </div>
+            </div>
+        </div>
+        <div id="game" class="tabContent">
+            <div id="gameRule">
+                <div>
+                    <h2>Let's catch Christy!</h2>
+                    <p>Christy is running around the whole Taipei City, please help me to catch her!</p>
+                    <p>You will be given one minute.</p>
+                    <button type="button" class="btn btn-outline-success" onclick="startGame()">Start</button>
+                </div>
+
+                <div id="smallChristy">
+                    <img src="images/gameRole0.png" style="height: 320px; bottom: 30px; position: relative;">
+                    <img src="images/gameRole1.png">
+                    <img src="images/gameRole2.png">
+                    <img src="images/gameRole3.png">
+                </div>
+
+            </div>
+            <div id="gameBox">
+                <div id="scoreBoard">
+                    <label id="score">Score :&nbsp;</label>
+                    <label id="scoreband" style="display: inline-block">0</label><br><br>
+                    <i id="clockIcon" class="fas fa-clock" style="font-size:25px">
+                        <div id="oneMinCounter"></div>
+                    </i><br><br>
+                    <button type="button" class="btn btn-outline-success" onclick="resetGame()">Restart</button>
+                    <button type="button" class="btn btn-outline-success" onclick="backToGameRule()">Rule</button>
+                </div>
+                <div id="gameBg">
+                    <img id="christyRole" src="images/gameRole0.png" height="170px">
+                    <img id="monsterRole" height="170px">
+                </div>
+            </div>
+        </div>
+
+        <div id="credits" class="tabContent">
+            <h1>Credits</h1>
+        </div>
+        <div id="footer">
+            <footer>&copy;&nbsp;Copyright Tzu-Ting Wu - Summer 2019</footer>
+        </div>
+    </div>
+    <script src="moment.min.js"></script>
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+
+</html>

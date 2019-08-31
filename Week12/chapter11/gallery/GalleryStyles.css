@@ -1,0 +1,24 @@
+﻿#gallery {
+	position: relative; }
+#gallery ul {
+	list-style-type: none;
+    width: 900px; }
+#gallery li { 
+	display: inline; 
+    float: left;
+	padding: 10px; }
+	 
+#gallery img {
+	border-style: none; }
+#gallery a { 
+	text-decoration: none;
+    font-style: italic;  
+    color: #333; }
+#gallery span {
+	display: none; }
+#gallery a:hover span {
+	display: block;     
+	position: absolute;
+	top: 100px;
+	left: 200px; 
+	text-align: center; } 

@@ -1,0 +1,40 @@
+﻿#header {
+	background-image: url('images/BeachTripHeader.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#footer {
+	background-color: #3E982C;
+	color: white;
+}
+#copyright {
+	font-size: x-small;
+}
+#footer a {
+	color: white;
+	text-decoration: none;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+#footer a:hover {
+	color: #3E982C;
+	background-color: #FFFFFF;
+}
+.floatRight {
+	float: right;
+	margin-left: 8px;
+}
+.pageTitle {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: large;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: #183F6C;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}

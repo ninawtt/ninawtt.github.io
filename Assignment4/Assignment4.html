@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<!--Created by:Tzu-Ting Wu - Created on: Mar 15, 2019-->
+<html lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Assignment4</title>
+<link href="Assignment4Styles.css" rel="stylesheet" type="text/css">
+
+<!--backtop function-->
+<script src="float-panel.js"></script>
+<style type="text/css">
+</style>
+</head>
+
+<body>
+<!--backtop function-->
+<div id="backtop">&#9650;</div>
+<div id="allPage">
+<header>
+	<h1>
+	<a href="https://www.centennialcollege.ca/">
+	<img alt="centennial logo" height="127" src="images/centenniallogo.jfif" width="397" class="auto-style1"></a><br>
+	Centennial College</h1>
+	<h2>Continuing Education Course/ Instructor Evaluation</h2>
+</header>
+	<p><span lang="zh-tw">Please read each statement carefully and consider each one 
+individually. Give only <strong>one answer</strong> for each question.</span>&nbsp;</p>
+<form action="mailto:twu42@my.centennialcollege.ca" method="post">
+<table style="width: 100%">
+	<tr>
+		<td style="height: 12px; width: 485px;">
+	<span lang="zh-tw">Course Name/Code:</span></td>
+		<td style="height: 12px"><select name="listCourses" size="1" tabindex="1">
+	<option value="COMM161">COMM161  College Communications 1</option>
+	<option value="COMP100">COMP100 Programming I</option>
+	<option value="COMP120">COMP120 Software Engineering Fundamentals</option>
+	<option value="COMP213">COMP213 Web Interface Design</option>
+	<option value="GNED219">GNED219 Canadian Workplace Experience</option>
+	<option value="MATH 175">MATH175 Functions &amp; Number Systems</option>
+	</select></td>
+	</tr>
+	<tr>
+		<td style="width: 485px"><span lang="zh-tw">Semester:</span></td>
+		<td>
+	<input name="optSemester" tabindex="3" type="radio" value="F" checked="checked"><span lang="zh-tw">Fall</span><input name="optSemester" tabindex="5" type="radio" value="W"><span lang="zh-tw">Winter</span><input name="optSemester" tabindex="7" type="radio" value="S"><span lang="zh-tw">Spring/Summer</span></td>
+	</tr>
+	<tr>
+		<td style="width: 485px"><span lang="zh-tw">Year:</span></td>
+		<td><select name="lisYear" size="1" tabindex="9">
+	<option value="2019">2019</option>
+	<option value="2020">2020</option>
+	<option value="2021">2021</option>
+	<option value="2022">2022</option>
+	<option value="2023">2023</option>
+	</select></td>
+	</tr>
+	<tr>
+		<td style="height: 26px; width: 485px;"><span lang="zh-tw">Instructor:</span></td>
+		<td style="height: 26px"><input name="txtInstructor" size="25" tabindex="11" type="text"></td>
+	</tr>
+	<tr>
+		<td colspan="2"><hr></td>
+	</tr>
+	<tr>
+		<td class="classification"colspan="2"><span lang="zh-tw">INSTRUCTOR</span></td>
+	</tr>
+	<tr>
+		<td style="width: 485px">
+	<span lang="zh-tw">How would you rate the instructor's:</span></td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td style="width: 485px">&nbsp;</td>
+		<td><span lang="zh-tw">Excellent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		Good&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fair&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Not 
+	Satisfactory</span></td>
+	</tr>
+	<tr>
+		<td style="width: 485px"><span lang="zh-tw">1.&nbsp;&nbsp; knowledge of 
+	subject?</span></td>
+		<td><span lang="zh-tw">
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<input name="optKnowledge" tabindex="13" type="radio" value="E" checked="checked">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="optKnowledge" tabindex="15" type="radio" value="G">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="optKnowledge" tabindex="17" type="radio" value="F">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="optKnowledge" tabindex="19" type="radio" value="NS"></span></td>
+	</tr>
+	<tr>
+		<td style="width: 485px"><span lang="zh-tw">2.&nbsp;&nbsp; helpfulness?</span></td>
+		<td><span lang="zh-tw">
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<input name="optHelp" tabindex="21" type="radio" value="E" checked="checked">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="optHelp" tabindex="23" type="radio" value="G">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="optHelp" tabindex="25" type="radio" value="F">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="optHelp" tabindex="27" type="radio" value="NS"></span></td>
+	</tr>
+	<tr>
+		<td style="width: 485px"><span lang="zh-tw">3.&nbsp;&nbsp; courtesy and respect for all students?</span></td>
+		<td>
+		<span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+		<input name="optRsp" tabindex="29" type="radio" value="E" checked="checked"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</span><input name="optRsp" tabindex="31" type="radio" value="G"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</span><input name="optRsp" tabindex="33" type="radio" value="F"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</span><input name="optRsp" tabindex="35" type="radio" value="NS"></td>
+	</tr>
+	<tr>
+		<td style="width: 485px"><span lang="zh-tw">4.&nbsp;&nbsp; communication skills?</span></td>
+		<td>
+		<span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+		<input name="optCom" tabindex="37" type="radio" value="E" checked="checked"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</span><input name="optCom" tabindex="39" type="radio" value="G"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</span><input name="optCom" tabindex="41" type="radio" value="F"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</span><input name="optCom" tabindex="43" type="radio" value="NS"></td>
+	</tr>
+	<tr>
+		<td style="width: 485px"><span lang="zh-tw">5.&nbsp;&nbsp; overall performance?</span></td>
+		<td>
+		<span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+		<input name="optPerfrom" tabindex="45" type="radio" value="E" checked="checked"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</span><input name="optPerfrom" tabindex="47" type="radio" value="G"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</span><input name="optPerfrom" tabindex="49" type="radio" value="F"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</span><input name="optPerfrom" tabindex="51" type="radio" value="NS"></td>
+	</tr>
+	<tr>
+		<td class="classification" colspan="2"><span lang="zh-tw">COURSE</span></td>
+	</tr>
+	<tr>
+		<td style="width: 485px"><span lang="zh-tw">6.&nbsp;&nbsp; How would you rate the course materials?</span></td>
+		<td>
+		<span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+		<input checked="checked" name="optMaterials" type="radio" value="E" tabindex="53"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input name="optMaterials" type="radio" value="G" tabindex="57">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		</span><input name="optMaterials" type="radio" value="F" tabindex="59"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><input name="optMaterials" type="radio" value="NS" tabindex="61"></td>
+	</tr>
+	<tr>
+		<td style="width: 485px"><span lang="zh-tw">7.&nbsp;&nbsp; How much did this course meet your expectations?</span></td>
+		<td>
+		<span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+		<input name="optExpections" type="radio" checked="checked" value="E" tabindex="63"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</span><input name="optExpections" type="radio" value="G" tabindex="65"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><input name="optExpections" type="radio" value="F" tabindex="67"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><input name="optExpections" type="radio" value="NS" tabindex="69"></td>
+	</tr>
+	<tr>
+		<td style="width: 485px"><span lang="zh-tw">8.&nbsp;&nbsp; How would you rate this course (overall)?</span></td>
+		<td>
+		<span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+		<input name="optOverall" type="radio" checked="checked" value="E" tabindex="71"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><input name="optOverall" type="radio" value="G" tabindex="73"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><input name="optOverall" type="radio" value="F" tabindex="75"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><input name="optOverall" type="radio" value="NS" tabindex="77"></td>
+	</tr>
+	<tr>
+		<td class="classification" colspan="2"><span lang="zh-tw">GENERAL INFORMATION</span></td>
+	</tr>
+	<tr>
+		<td style="width: 485px">
+		&nbsp;</td>
+		<td><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp; Yes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Not Sure</span></td>
+	</tr>
+	<tr>
+		<td style="width: 485px">
+		<span lang="zh-tw">9.&nbsp;&nbsp; Was the course outline reviewed/explained at the<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beginning of your course?</span></td>
+		<td><span lang="zh-tw">
+		&nbsp;&nbsp;&nbsp;&nbsp; 
+	<input checked="checked" name="optOutline" type="radio" value="Y" tabindex="79">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input name="optOutline" type="radio" value="N" tabindex="81">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="optOutline" type="radio" value="NS" tabindex="83"></span></td>
+	</tr>
+	<tr>
+		<td style="width: 485px"><span lang="zh-tw">10.&nbsp; Would you recommend this course to a friend with 
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the same 
+	interests?</span></td>
+		<td>
+		<span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+		<input name="optRecom" type="radio" checked="checked" value="Y" tabindex="85"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</span><input name="optRecom" type="radio" value="N" tabindex="87"><span lang="zh-tw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		</span><input name="optRecom" type="radio" value="NS" tabindex="89"></td>
+	</tr>
+	<tr>
+		<td class="classification" colspan="2"><span lang="zh-tw">ANY OTHER COMMENTS</span></td>
+	</tr>
+	<tr>
+		<td style="width: 485px">
+	<span lang="zh-tw">11. What is the best thing about this course?</span></td>
+		<td><span lang="zh-tw">
+		<textarea cols="50" name="txtBest" rows="5" tabindex="91" placeholder="--Please share the best thing you enjoy the most in this course--"></textarea></span></td>
+	</tr>
+	<tr>
+		<td style="width: 485px"><span lang="zh-tw">12. How could we improve this course?</span></td>
+		<td><span lang="zh-tw">
+		<textarea cols="50" name="txtImprove" rows="5" tabindex="93" placeholder="--Please tell us your suggestions for letting us improve--"></textarea></span></td>
+	</tr>
+	<tr>
+		<td style="width: 485px"><span lang="zh-tw">13. Other:</span></td>
+		<td><textarea cols="50" name="txtOther" rows="5" tabindex="95" placeholder="--Feel free to leave other comments--"></textarea></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<hr></td>
+	</tr>
+	<tr>
+		<td style="width: 485px" class="button">
+	<input name="btnSubmit" type="submit" value="Submit Form" tabindex="97"></td>
+		<td>
+		<input name="btnReset" type="reset" value="Clear Form" tabindex="99"></td>
+	</tr>
+</table>
+</form>
+<p><span lang="zh-tw">Thank you! We pay attention to your feedback!</span></p>
+<p><span lang="zh-tw">Web:
+<a href="https://www.centennialcollege.ca/programs-courses/part-time/">
+https://www.centennialcollege.ca/programs-courses/part-time/</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: 
+<a href="mailto:%20twu42@my.centennialcollege.ca">twu42@my.centennialcollege.ca</a></span></p>
+&nbsp;<footer>
+<p><a href="../index.html">back to index</a></p>
+		<p id="copyright">&copy;&nbsp;Copyright Tzu-Ting Wu - Assignment4 - COMP213</p>
+</footer>
+</div>
+</body>
+
+</html>

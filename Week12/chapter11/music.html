@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Adding a Sound Using the Object Tag</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body { background-color: #FFFFFF;
+       color: #0000FF;
+       font-family: Arial,san-serif;
+}
+</style>       
+</head>
+<body>
+ <p>This page has a sound loop added to it using the &lt;object&gt; tag.</p>
+<object data="soundloop.mp3"
+        height="50"
+        width="100"
+        type="audio/mpeg" >
+<param name="src"  value="soundloop.mp3" />
+<param name="controller" value="true" />
+<param name="autoplay" value="false" />
+</object>     
+
+ <p>You won't hear anything if you don't have a sound card
+installed in your computer or speakers connected to your computer.</p>
+ <p>View the source on this page to see the XHTML used to embed the sound.</p>
+</body>
+</html>

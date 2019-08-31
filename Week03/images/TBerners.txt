@@ -1,0 +1,96 @@
+Sir Timothy John "Tim" Berners-Lee
+ 
+OM, KBE, FRS, FREng, FRSA (born 8 June 1955[1]), is a British engineer and computer scientist and MIT professor credited with inventing the World Wide Web, making the first proposal for it in March 1989.[2] On 25 December 1990, with the help of Robert Cailliau and a young student at CERN, he implemented the first successful communication between an HTTP client and server via the Internet. 
+
+Berners-Lee is the director of the World Wide Web Consortium (W3C), which oversees the Web's continued development. He is also the founder of the World Wide Web Foundation, and is a senior researcher and holder of the 3Com Founders Chair at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL).[3] He is a director of The Web Science Research Initiative (WSRI),[4] and a member of the advisory board of the MIT Center for Collective Intelligence.[5][6] In April 2009, he was elected as a member of the United States National Academy of Sciences, based in Washington, D.C. [7] 
+
+Contents 
+Early life 
+Career 
+Recognition 
+Personal life 
+See also 
+Publications 
+Notes 
+Further reading 
+External links 
+
+
+
+Early life
+
+
+Tim Berners-Lee was born in London, England, on 8 June 1955, the son of Conway Berners-Lee and Mary Lee Woods.[8] He attended Sheen Mount primary school, and then went on to Emanuel School in London, from 1969 to 1973. He studied at The Queen's College, Oxford, from 1973 to 1976, where he received a first-class degree in Physics.[1] 
+
+
+Career
+
+
+Tim Berners-Lee on 18 November 2005.While an independent contractor at CERN from June to December 1980, Berners-Lee proposed a project based on the concept of hypertext, to facilitate sharing and updating information among researchers.[9] While there, he built a prototype system named ENQUIRE. After leaving CERN in 1980, he went to work at John Poole's Image Computer Systems, Ltd, in Bournemouth, England, but returned to CERN in 1984 as a fellow. In 1989, CERN was the largest Internet node in Europe, and Berners-Lee saw an opportunity to join hypertext with the Internet: "I just had to take the hypertext idea and connect it to the Transmission Control Protocol and domain name system ideas and � ta-da! � the World Wide Web."[10] He wrote his initial proposal in March 1989, and in 1990, with the help of Robert Cailliau, produced a revision which was accepted by his manager, Mike Sendall. He used similar ideas to those underlying the Enquire system to create the World Wide Web, for which he designed and built the first Web browser, which also functioned as an editor (WorldWideWeb, running on the NeXTSTEP operating system), and the first Web server, CERN HTTPd (short for HyperText Transfer Protocol daemon). 
+
+The first Web site built was at CERN, and was first put on line on 6 August 1991. "Info.cern.ch was the address of the world's first-ever web site and web server, running on a NeXT computer at CERN. The first web page address was http://info.cern.ch/hypertext/WWW/TheProject.html, which centred on information regarding the WWW project. Visitors could learn more about hypertext, technical details for creating their own webpage, and even an explanation on how to search the Web for information. There are no screenshots of this original page and, in any case, changes were made daily to the information available on the page as the WWW project developed. You may find a later copy (1992) on the World Wide Web Consortium website." -CERN It provided an explanation of what the World Wide Web was, and how one could use a browser and set up a Web server.[11] [12] [13] [14] 
+
+
+In 1994, Berners-Lee founded the World Wide Web Consortium (W3C) at MIT. It comprised various companies that were willing to create standards and recommendations to improve the quality of the Web. Berners-Lee made his idea available freely, with no patent and no royalties due. The World Wide Web Consortium decided that its standards should be based on royalty-free technology, so that they could easily be adopted by anyone.[15] 
+
+In 2001, Berners-Lee became a patron of the East Dorset Heritage Trust, having previously lived in Colehill in Wimborne, East Dorset, England. 
+
+In December 2004, he accepted a chair in Computer Science at the School of Electronics and Computer Science, University of Southampton, England, to work on his new project, the Semantic Web.[16] 
+
+In June 2009 Prime Minister Gordon Brown announced Berners-Lee will work with the UK Government to help make data more open and accessible on the Web, building on the work of the Power of Information Task Force.[17] 
+
+He was also one of the pioneer voices in favour of Net Neutrality,[18] and has expressed the view that ISPs should supply "connectivity with no strings attached," and should neither control nor monitor customers' browsing activities without their express consent.[19][20] 
+
+In a Times article in October 2009, Berners-Lee admitted that the forward slashes ("//") in a web address were actually "unnecessary". He told the newspaper that he could easily have designed URLs not to have the forward slashes. "There you go, it seemed like a good idea at the time," he said in his lighthearted apology.[21] 
+
+In November 2009, Berners-Lee launched the World Wide Web Foundation in order to "Advance the Web to empower humanity by launching transformative programs that build local capacity to leverage the Web as a medium for positive change." 
+
+
+
+Recognition
+
+
+
+This NeXT Computer was used by Berners-Lee at CERN and became the world's first Web server.Tim Berners-Lee Millennium Technology Prize winner 
+
+Year awarded 2004 
+
+Invention World Wide Web 
+
+Prize presented by Tarja Halonen 
+
+Previous laureate First recipient, no previous laureates 
+
+Following laureate Shuji Nakamura 
+
+In 1999, Time Magazine named Berners-Lee one of the 100 Most Important People of the 20th Century.[2] 
+
+In March 2000 he was awarded an honorary degree from the Open University as Doctor of the University.[22] 
+
+In 2003, he received the Computer History Museum's Fellow Award, for his seminal contributions to the development of the World Wide Web.[23] 
+
+On 15 April 2004, he was named as the first recipient of Finland's Millennium Technology Prize, for inventing the World Wide Web. The cash prize, worth one million euros (about �892,000, or US$1.3 million, as of May 2009), was awarded on 15 June, in Helsinki, Finland, by the President of the Republic of Finland, Tarja Halonen.[24] 
+
+He was awarded the rank of Knight Commander (the second-highest rank in the Order of the British Empire) by Queen Elizabeth II, as part of the 2004 New Year's Honours, and was invested on 16 July 2004.[25][26] 
+
+On 21 July 2004, he was presented with an honorary Doctor of Science degree from Lancaster University.[27] 
+
+On 27 January 2005, he was named Greatest Briton of 2004, both for his achievements and for displaying the key British characteristics of "diffidence, determination, a sharp sense of humour and adaptability", as put by David Hempleman-Adams, a panel member.[28] 
+
+In 2007, he was ranked Joint First, alongside Albert Hofmann, in The Telegraph's list of 100 greatest living geniuses.[29] 
+
+On 13 June 2007, he received the Order of Merit, becoming one of only 24 living members entitled to hold the award, and to use 'O.M.' after their name.[30] (The Order of Merit is regarded as a personal gift bestowed by the reigning monarch, and does not require ministerial advice.) 
+
+On 20 September 2008, he was awarded the IEEE/RSE Wolfson James Clerk Maxwell Award, for conceiving and further developing the World Wide Web IEEE.[31] 
+
+On 21 April 2009, he was awarded an honorary doctorate by the Universidad Polit�cnica de Madrid.[32] 
+
+On 28 April 2009, he was elected member of the National Academy of Sciences. 
+
+In 2009, he won the Webby Award for Lifetime Achievement. 
+
+In October 2009, he will be awarded an honorary doctorate by the Vrije Universiteit Amsterdam[33][34] 
+
+Personal life 
+
+Berners-Lee had a religious upbringing, but left the Church of England as a teenager, just after being confirmed and "told how essential it was to believe in all kinds of unbelievable things". He and his family eventually joined a Unitarian Universalist church while they were living in Boston.[35] 

@@ -1,0 +1,18 @@
+﻿h1 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checked {
+  color: orange;
+}
+#Brian {
+	margin: 5px 5px 5px 10px;
+	float: right;
+}
+#aboutMePage {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#description {
+	display: block;
+	margin-left: 20px;
+}

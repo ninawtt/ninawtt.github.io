@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<!--Created by: Tzu-Ting Wu  - Created on: May 2nd, 2019-->
+<html>
+<head>
+<title>Game Time</title>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+<link href="css/GameStyles.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="js/Cards.js"></script>
+<script src="js/GameScript.js"></script>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>&nbsp;<a href = "index.html">Taboo</a>&nbsp;&nbsp;|
+	&nbsp;&nbsp;<a href = "ielts.html">IELTS</a>&nbsp;</header>
+<body onload="firstCard()">	
+ <div id="content">
+ 	<div id="nav">
+ 		<ul>
+ 			<li><button onclick="changeToEn()">EN</button></li>
+ 			<li><button onclick="changeToCh()">CH</button></li>
+ 		</ul>
+	</div>
+	<div id="searchBar">
+		<div class="input-group mb-3">
+			<input type="text" id="search" class="form-control" onkeyup="displayCardByFilter()" placeholder="Search for topics..." title="Type in a topic">	
+		</div>
+	</div>
+	<div id="cards">
+		<div id="topics">
+			<h2 id="topicsTxt"></h2>
+		</div>
+		<div id="vocabs">
+			<p id="vocabsTxt"></p>
+		</div>
+	</div>
+	<div id="buttons">
+		<button onclick="prevCard()" ><i class="fa fa-chevron-circle-left fa-lg">&nbsp;PREV</i></button>&nbsp;&nbsp;&nbsp;&nbsp;
+		<button onclick="nextCard()"><i class="fa fa-chevron-circle-right fa-lg">&nbsp;NEXT</i></button>
+	</div>
+ </div>
+
+
+</body>
+</html>

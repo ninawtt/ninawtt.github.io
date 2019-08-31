@@ -1,45 +1,163 @@
-﻿<!DOCTYPE html>
-<!--Created by: Tzu-Ting Wu  - Created on: May 2nd, 2019-->
-<html>
+<!doctype html>
+<!--Created by: Tzu-Ting, Wu - Created on: Jan 24, 2019-->
+<html lang="en">
 <head>
-<title>Game Time</title>
-<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
-<link href="css/GameStyles.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<script src="js/Cards.js"></script>
-<script src="js/GameScript.js"></script>
-<!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Tzu-Ting Wu - Home Page</title>
+<meta charset="utf-8">
 </head>
-<header>&nbsp;<a href = "index.html">Taboo</a>&nbsp;&nbsp;|
-	&nbsp;&nbsp;<a href = "ielts.html">IELTS</a>&nbsp;</header>
-<body onload="firstCard()">	
- <div id="content">
- 	<div id="nav">
- 		<ul>
- 			<li><button onclick="changeToEn()">EN</button></li>
- 			<li><button onclick="changeToCh()">CH</button></li>
- 		</ul>
-	</div>
-	<div id="searchBar">
-		<div class="input-group mb-3">
-			<input type="text" id="search" class="form-control" onkeyup="displayCardByFilter()" placeholder="Search for topics..." title="Type in a topic">	
-		</div>
-	</div>
-	<div id="cards">
-		<div id="topics">
-			<h2 id="topicsTxt"></h2>
-		</div>
-		<div id="vocabs">
-			<p id="vocabsTxt"></p>
-		</div>
-	</div>
-	<div id="buttons">
-		<button onclick="prevCard()" ><i class="fa fa-chevron-circle-left fa-lg">&nbsp;PREV</i></button>&nbsp;&nbsp;&nbsp;&nbsp;
-		<button onclick="nextCard()"><i class="fa fa-chevron-circle-right fa-lg">&nbsp;NEXT</i></button>
-	</div>
- </div>
+<body style="font-family:Verdana;background-color: rgb(250, 250, 238);">
+<div style="width:980px; margin-left:auto; margin-right:auto;">
+<img src="logo.gif" alt="SETAS logo" style="
+    display: block;
+    margin: auto;
+">
+<hr style="border-style:solid;border-width:2px;border-color: #ec288c;">
+<h3 style="text-align: center;color: #494cce;">COMP213 - Web Interface Design - Winter 2019 </h3>
+<h4 style="
+    text-align: center;
+    color: #494cce;
+">Student Name: Tzu-Ting Wu - Student #: 301040475</h4>
+<hr style="border-style:solid;border-width:2px;border-color: #ec288c;">
+<ul style="list-style-image:url(circledot.gif);">
+<li style="
+    font-style: oblique;
+    font-size: x-large;
+    font-family: fantasy;
+    color: #5e5e5e;
+">Who am I? </li>
+</ul>
+<p style="
+    color: #1f215a;
+">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm <strong>Nina</strong>. I'm from <strong>Taiwan</strong>.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm a student in the <strong>Software Engineering Technology</strong> at Centennial College.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Previously I studied at International Language Academic Canada in Toronto, ON.</p>
+
+<ul style="list-style-image:url(circledot.gif);">
+<li style="
+    font-style: oblique;
+    font-size: x-large;
+    font-family: fantasy;
+    color: #5e5e5e;
+">My hobbies </li>
+
+<p style="
+    color: #1f215a;
+">Some things that I like to do are:</p>
+<ul style="list-style-image:url(red-star.gif);color: #1f215a;">
+<li style="
+    color: #1f215a;
+">watching Netflix</li>
+<li>reading novels</li>
+<li>eating french fries</li>
+<li>playing with Brownie</li>
+<li>designing cards</li>
+<li>traveling</li>
+</ul>
+</ul>
 
 
-</body>
-</html>
+<ul style="list-style-image:url(circledot.gif);">
+<li style="
+    font-style: oblique;
+    font-size: x-large;
+    font-family: fantasy;
+    color: #5e5e5e;
+">My friends in Toronto </li>
+</ul>
+
+<p style="
+    color: #1f215a;
+">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I met a lot of amazing friends in Toronto! We visited many places together!</p>
+<div style="
+    display: block;
+    height: 215px;
+">
+	<img src="highpark.jpg" alt="BBQ with my friends in High Park!" style="float:center;" height="225" width="300">
+	<img src="perfect team.jpg" alt="Friends I met in Toronto!" style="float:center;" height="225" width="300">
+	<img src="wonderland.jpg" alt="Visit wonderland with my friends!" style="float:center;" height="225" width="300">
+</div>
+<br>
+
+
+<ul style="list-style-image:url(circledot.gif);">
+<li style="
+    font-style: oblique;
+    font-size: x-large;
+    font-family: fantasy;
+    color: #5e5e5e;
+">My favorite quotes </li>
+</ul>
+<p style="
+    color: #1f215a;
+">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of my favorite quotes is:</p>
+<blockquote style="
+    color: #1f215a;
+">
+<em>Success is walking from failure to failure with no loss of enthusiasm.</em>
+<br>~~Winston Churchill~~
+</blockquote>
+
+<ul style="list-style-image:url(circledot.gif);">
+<li style="
+    font-style: oblique;
+    font-size: x-large;
+    font-family: fantasy;
+    color: #5e5e5e;
+">Other things that I want to say </li>
+</ul>
+<p style="
+    color: #1f215a;
+">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are supposed to drink lots of H<sub>2</sub>O to stay healthy.</p>
+<p style="
+    color: #1f215a;
+">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My prefered brand of mobile devices is Apple<sup>®</sup>.</p>
+
+<ul style="list-style-image:url(circledot.gif);">
+<li style="
+    font-style: oblique;
+    font-size: x-large;
+    font-family: fantasy;
+    color: #5e5e5e;
+">My Progress in Web Development</li>
+</ul>
+    <div style="width: 30%; margin-left: 50px; display: inline-block; vertical-align: top">
+        <h4>COMP213</h4>
+        <ul style="list-style-type: none">
+            <li><a href="Week03/Week03.html">Class Example Week 03</a></li>
+            <li><a href="Week04/Week04.html">Class Example Week 04</a></li>
+            <li><a href="Week05/Week05.html">Class Example Week 05</a></li>
+            <li><a href="Week06/Week06.html">Class Example Week 06</a></li>
+            <li><a href="Week07/Week07.html">Class Example Week 07</a></li>
+            <li><a href="Week09/Week09.html">Class Example Week 09</a></li>
+            <li><a href="Week10/Week10.html">Class Example Week 10</a></li>
+            <li><a href="Week11/Home.html">Class Example Week 11</a></li>
+            <li><a href="Assignment2/Assignment2.html">Assignment 2</a></li>
+            <li><a href="Assignment3/Assignment3.html">Assignment 3</a></li>
+            <li><a href="Assignment4/Assignment4.html">Assignment 4</a></li>
+            <li><a href="TermProject/Home.html">Term Project</a></li>
+        </ul></div>
+    <div style="width: 30%; margin-left: 50px; display: inline-block;  vertical-align: top">
+        <h4>COMP125</h4>
+        <ul style="list-style-type: none;">
+            <li><a href="COMP125 Client-Side Web Development/COMP125001/COMP125_001/Assignment1/Assignment1.html">Assignment 1</a></li>
+            <li><a href="COMP125 Client-Side Web Development/COMP125001/COMP125_001/Assignment2/Assignment2.html">Assignment 2</a></li>
+            <li><a href="COMP125 Client-Side Web Development/COMP125001/COMP125_001/Assignment3/Assignment3.html">Assignment 3</a></li>
+            <li><a href="COMP125 Client-Side Web Development/COMP125001/COMP125_001/Assignment4/Membership.html">Assignment 4</a></li>
+            <li><a href="COMP125 Client-Side Web Development/COMP125001/COMP125_001/Assignment5/Assignment5.html">Assignment 5</a></li>
+            <li><a href="COMP125 Client-Side Web Development/COMP125001/COMP125_001/Assignment6/Assignment6.html">Assignment 6</a></li>
+            <li></li>
+        </ul>
+    </div>
+    <div style="width: 30%; margin-left: 50px; display: inline-block; vertical-align: top">
+        <h4>Other Portfolios</h4>
+        <ul style="list-style-type: none">
+            <li><a href="ChristyHBD/index.html">Christy's BD Website</a></li>
+        </ul></div>
+
+<hr style="border-style:solid;border-width:2px;border-color: #ec288c;">
+<h6>&copy;&nbsp;&nbsp;Copyright Tzu-Ting Wu COMP213 - Winter 2019</h6>
+<hr style="border-style:solid;border-width:2px;border-color: #ec288c;">
+</div>
+
+
+</body></html>

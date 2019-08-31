@@ -1,0 +1,103 @@
+﻿#allPage {
+	border-radius: 10px;
+	padding: 10px;
+	border: medium groove #CBDC5D;
+	margin-right: auto;
+	margin-left: auto;
+	width: 980px;
+}
+#copyright {
+	font-size: x-small;
+}
+footer {
+	background-color: #212121;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+hr {
+	color: #CBDC5D;
+}
+h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #B3BA57;
+	text-align: center;
+	font-size: xx-large;
+	font-variant: small-caps;
+	text-transform: capitalize;
+}
+h2 {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	color: #464548;
+	text-align: center;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	font-size: x-large;
+}
+p {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.classification {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: large;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: #464548;
+	background-color: #CBDC5D;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
+}
+table {
+	padding: 5px;
+	border-collapse: separate;
+}
+td {
+	padding: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button {
+	text-align: right;
+}
+footer a {
+	text-decoration: none;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+}
+footer a:hover {
+	text-decoration: underline overline;
+	color: #CBDC5D;
+	font-weight: bold;
+}
+#backtop {
+	position: fixed;
+	left: auto;
+	right: 20px;
+	top: auto;
+	bottom: 20px;
+	outline: none;
+	overflow: hidden;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #CBDC5D;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: all 0.3s linear;
+	z-index: 999999;
+	opacity: 1;
+	display: none;
+}
+#backtop:hover {
+	background-color: #212121;
+}
+#backtop.mcOut {
+    opacity:0;
+}
+

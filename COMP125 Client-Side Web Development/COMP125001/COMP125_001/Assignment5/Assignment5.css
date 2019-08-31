@@ -1,0 +1,86 @@
+﻿
+body {
+    overflow: hidden;
+    margin: 0px !important;
+}
+
+#allPage {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    height: 668px;
+}
+
+/* nav */
+ul {
+    list-style-type: none;
+    background-color: rgba( 32, 36, 38, 0.5);
+    margin-top: 0px;
+    margin-bottom: 5px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none !important;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+li a:hover {
+    background-color: #ffc107;
+    color: black !important;
+}
+
+li a:active {
+    color: black;
+}
+
+li a:visited {
+    color: white;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: small;
+    color: RGB(224,183,86);
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+#content {
+    margin: 0px !important;
+    min-width: 980px;
+}
+
+#instruction {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 40px;
+}
+
+#game {
+    display: inline-block;
+    width: 655px;
+}
+
+button {
+    margin: 10px !important;
+    width: 120px;
+}
+
+#buttonDiv {
+    margin-top: 60px;
+}

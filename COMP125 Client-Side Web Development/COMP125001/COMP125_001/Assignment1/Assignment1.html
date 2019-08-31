@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<!--Created by: Tzu-Ting Wu - Created on: May 24, 2019-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BMR Calculator</title>
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="Assignment1Styles.css" rel="stylesheet" />
+    <link href="bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="allPage">
+        <div id="nav">
+            <ul>
+                <li><a href="../../../../index.html">Home</a></li>
+                <li><a href="#">Assignment 1</a></li>
+                <li><a href="../Assignment2/Assignment2.html">Assignment 2</a></li>
+                <li><a href="../Assignment3/Assignment3.html">Assignment 3</a></li>
+                <li><a href="../Assignment4/Membership.html">Assignment 4</a></li>
+                <li><a href="../Assignment5/Assignment5.html">Assignment 5</a></li>
+                <li><a href="../Assignment6/Assignment6.html">Assignment 6</a></li>
+            </ul>
+        </div>
+         <div id="container">
+            <!-- Tab links -->
+            <div id="tab">
+                <div id="imperialHead" class="tablinksactive" onclick="chUnit(event, 'upFormI')">Imperial BMR</div>
+                <div id="metricHead" class="tablinks" onclick="chUnit(event, 'upFormM')">Metric BMR</div>
+            </div>
+
+            <div id="form">
+            <!-- Tab content -->
+                <div id="upFormI" class="tabcontent">
+                    <table>
+                        <tr>
+                            <td><label for="genderI">Gender</label></td>
+                            <td colspan="2">
+                                <select id="genderI" name="gender" class="form-control form-control-sm">
+                                    <option value="Female">Female</option>
+                                    <option value="Male">Male</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="ageI">Age</label></td>
+                            <td colspan="2">
+                                <input type="number" id="ageI" class="form-control form-control-sm" name="age" min="0" value ="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="feet">Height</label></td>
+                            <td>
+                                <input type="number" id="feet" class="form-control form-control-sm" name="feet" min="0" value ="0">&nbsp;feet
+                            </td>
+                            <td>
+                                <input type="number" id="inches" class="form-control form-control-sm" name="inches" min="0" value ="0">&nbsp;inches
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="stones">Weight</label></td>
+                            <td>
+                                <input type="number" id="stones" class="form-control form-control-sm" name="stones" min="0" value ="0">&nbsp;stones
+                            </td>
+                            <td>
+                                <input type="number" id="pounds" class="form-control form-control-sm" name="pounds" min="0" value ="0">&nbsp;pounds
+                            </td>
+                        </tr>
+                     </table>
+                </div>
+                <div id="upFormM" class="tabcontent">
+                    <table>
+                        <tr>
+                            <td><label for="genderM">Gender</label></td>
+                            <td>
+                                <select id="genderM" name ="gender" class="form-control form-control-sm">
+                                    <option value="Female">Female</option>
+                                    <option value="Male">Male</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="ageM">Age</label></td>
+                            <td>
+                                <input type="number" id="ageM" class="form-control form-control-sm" name="age" min="0" value ="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="cm">Height</label></td>
+                            <td>
+                                <input type="number" id="cm" class="form-control form-control-sm" name="cm" min="0" value ="0">&nbsp;cm
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="kg">Weight</label></td>
+                            <td>
+                                <input type="number" id="kg" class="form-control form-control-sm" name="kg" min="0" value ="0">&nbsp;kg
+                            </td>
+                        </tr>
+                     </table>
+                </div>
+                <div id="midForm">
+                    <span>Select your activity level:</span><br>
+                    <div  class="custom-control custom-radio">
+                        <input type="radio" id="littleRadio" class="custom-control-input" name="activityLv" value="little" checked>
+                        <label class="custom-control-label" for="littleRadio">I am sedentary (little or no exercise)</label><br>
+                    </div>
+                    <div  class="custom-control custom-radio">
+                        <input type="radio" id="lightRadio" class="custom-control-input" name="activityLv" value="light">
+                        <label class="custom-control-label" for="lightRadio">I am lightly active (light exercise or sports 1-3 days per week)</label><br>
+                    </div>
+                    <div  class="custom-control custom-radio">
+                        <input type="radio" id="moderateRadio" class="custom-control-input" name="activityLv" value="moderate">
+                        <label class="custom-control-label" for="moderateRadio">I am moderately active (moderate exercise or sports 3-5 days per week)</label><br>
+                    </div>
+                    <div  class="custom-control custom-radio">
+                        <input type="radio" id="hardRadio" class="custom-control-input" name="activityLv" value="hard">
+                        <label class="custom-control-label" for="hardRadio">I am very active (hard exercise or sports 6-7 days per week)</label><br>
+                    </div>
+                    <div  class="custom-control custom-radio">
+                        <input type="radio" id="superRadio" class="custom-control-input" name="activityLv" value="super">
+                        <label class="custom-control-label" for="superRadio">I am super active (very hard exercise or sports and a physical job)</label><br>
+                    </div>
+                </div>
+                <div id="downForm">
+                    <input type="button" class="btn btn-info" value="Calculate BMR" onclick="calBMR()">
+                </div>
+            </div>
+            <div id="result">
+                <h4>BMR Results</h4>
+                <div id="bmrResult">
+                    <p>Your BMR: </p>
+                    <p id="bmr"></p>
+                </div>
+                <div id="teeResult">
+                    <p>Maintenance calories per day: </p>
+                    <p id="tee"></p>
+                </div>
+                <p id="desc"></p>
+            </div>
+        </div>
+        <div id="footer">
+            <footer>&copy;&nbsp;Copyright Tzu-Ting Wu COMP125 - Assignment 1 - Summer 2019</footer>
+        </div>
+    </div>
+    <script src="Assignment1.js"></script>
+</body>
+</html>

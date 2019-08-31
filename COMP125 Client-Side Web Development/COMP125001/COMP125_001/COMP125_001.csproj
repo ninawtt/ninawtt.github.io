@@ -1,0 +1,381 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A4035F13-2FB3-4413-91A5-C56A2ED76053}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>COMP125_001</RootNamespace>
+    <AssemblyName>COMP125_001</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assignment1\Assignment1.html" />
+    <Content Include="Assignment1\Assignment1.js" />
+    <Content Include="Assignment1\Assignment1Styles.css" />
+    <Content Include="Assignment1\bootstrap.min.css" />
+    <Content Include="Assignment2\Assignment2Styles.css" />
+    <Content Include="Assignment2\Assignment2.html" />
+    <Content Include="Assignment2\Assignment2.js" />
+    <Content Include="Assignment3\Assignment3.html" />
+    <Content Include="Assignment3\Assignment3.js" />
+    <Content Include="Assignment3\Assignment3Styles.css" />
+    <Content Include="Assignment3\modernizr.custom.05819.js" />
+    <Content Include="Assignment3\zoom.css" />
+    <Content Include="Assignment3\zoom.htm" />
+    <Content Include="Assignment3\zoom.js" />
+    <Content Include="Assignment4\Membership.html" />
+    <Content Include="Assignment4\Membership.js" />
+    <Content Include="Assignment4\MembershipStyles.css" />
+    <Content Include="Assignment5\Assignment5.css" />
+    <Content Include="Assignment5\Assignment5.html" />
+    <Content Include="Assignment5\Assignment5.js" />
+    <Content Include="Assignment6\Assignment6.html" />
+    <Content Include="Assignment6\Assignment6.js" />
+    <Content Include="Assignment6\Assignment6Styles.css" />
+    <Content Include="Assignment6\bootstrap.min.css" />
+    <Content Include="Assignment6\images\toyStory01_5.jpg" />
+    <Content Include="Assignment6\images\toyStory02_5.jpg" />
+    <Content Include="Assignment6\images\toyStory03_5.jpg" />
+    <Content Include="Assignment6\images\toyStory04_5.jpg" />
+    <Content Include="Assignment6\images\toyStory05_5.jpg" />
+    <Content Include="Assignment6\jquery-3.4.1.min.js" />
+    <Content Include="Ch01Code\Chapter\images\blanket.jpg" />
+    <Content Include="Ch01Code\Chapter\images\bluestem.jpg" />
+    <Content Include="Ch01Code\Chapter\images\flower.png" />
+    <Content Include="Ch01Code\Chapter\images\rugosa.jpg" />
+    <Content Include="Ch01Code\Chapter\images\txlogo.png" />
+    <Content Include="Ch01Code\Chapter\images\txlogosm.png" />
+    <Content Include="Ch01Code\Chapter\modernizr.custom.05819.js" />
+    <Content Include="Ch01Code\Chapter\plants.htm" />
+    <Content Include="Ch01Code\Chapter\plants.js" />
+    <Content Include="Ch01Code\Chapter\tinley.css" />
+    <Content Include="Ch01Code\Chapter\tinleyhand.css" />
+    <Content Include="Ch01Code\HandsOnProject1-1\index.htm" />
+    <Content Include="Ch01Code\HandsOnProject1-1\modernizr.custom.05819.js" />
+    <Content Include="Ch01Code\HandsOnProject1-1\styles.css" />
+    <Content Include="Ch01Code\HandsOnProject1-2\index.htm" />
+    <Content Include="Ch01Code\HandsOnProject1-2\modernizr.custom.05819.js" />
+    <Content Include="Ch01Code\HandsOnProject1-2\styles.css" />
+    <Content Include="Ch01Code\HandsOnProject1-3\index.htm" />
+    <Content Include="Ch01Code\HandsOnProject1-3\modernizr.custom.05819.js" />
+    <Content Include="Ch01Code\HandsOnProject1-3\styles.css" />
+    <Content Include="Ch01Code\HandsOnProject1-4\index.htm" />
+    <Content Include="Ch01Code\HandsOnProject1-4\modernizr.custom.05819.js" />
+    <Content Include="Ch01Code\HandsOnProject1-4\styles.css" />
+    <Content Include="Ch01Code\HandsOnProject1-5\index.htm" />
+    <Content Include="Ch01Code\HandsOnProject1-5\modernizr.custom.65897.js" />
+    <Content Include="Ch01Code\HandsOnProject1-5\styles.css" />
+    <Content Include="Ch02Code\Chapter\digital.htm" />
+    <Content Include="Ch02Code\Chapter\estimate.htm" />
+    <Content Include="Ch02Code\Chapter\fantrick.css" />
+    <Content Include="Ch02Code\Chapter\ft.js" />
+    <Content Include="Ch02Code\Chapter\fthand.css" />
+    <Content Include="Ch02Code\Chapter\ftie.css" />
+    <Content Include="Ch02Code\Chapter\images\ftlogo.png" />
+    <Content Include="Ch02Code\Chapter\modernizr.custom.05819.js" />
+    <Content Include="Ch02Code\HandsOnProject2-1\index.htm" />
+    <Content Include="Ch02Code\HandsOnProject2-1\modernizr.custom.05819.js" />
+    <Content Include="Ch02Code\HandsOnProject2-1\styles.css" />
+    <Content Include="Ch02Code\HandsOnProject2-2\index.htm" />
+    <Content Include="Ch02Code\HandsOnProject2-2\modernizr.custom.05819.js" />
+    <Content Include="Ch02Code\HandsOnProject2-2\styles.css" />
+    <Content Include="Ch02Code\HandsOnProject2-3\index.htm" />
+    <Content Include="Ch02Code\HandsOnProject2-3\modernizr.custom.05819.js" />
+    <Content Include="Ch02Code\HandsOnProject2-3\styles.css" />
+    <Content Include="Ch02Code\HandsOnProject2-4\index.htm" />
+    <Content Include="Ch02Code\HandsOnProject2-4\modernizr.custom.05819.js" />
+    <Content Include="Ch02Code\HandsOnProject2-4\styles.css" />
+    <Content Include="Ch03Code\Chapter\calendar.htm" />
+    <Content Include="Ch03Code\Chapter\images\ttlogo.png" />
+    <Content Include="Ch03Code\Chapter\modernizr.custom.05819.js" />
+    <Content Include="Ch03Code\Chapter\tt.js" />
+    <Content Include="Ch03Code\Chapter\tthand.css" />
+    <Content Include="Ch03Code\Chapter\turbines.css" />
+    <Content Include="Ch03Code\HandsOnProject3-1\index.htm" />
+    <Content Include="Ch03Code\HandsOnProject3-1\modernizr.custom.05819.js" />
+    <Content Include="Ch03Code\HandsOnProject3-1\styles.css" />
+    <Content Include="Ch03Code\HandsOnProject3-2\index.htm" />
+    <Content Include="Ch03Code\HandsOnProject3-2\modernizr.custom.58072.js" />
+    <Content Include="Ch03Code\HandsOnProject3-2\styles.css" />
+    <Content Include="Ch03Code\HandsOnProject3-3\index.htm" />
+    <Content Include="Ch03Code\HandsOnProject3-3\modernizr.custom.05819.js" />
+    <Content Include="Ch03Code\HandsOnProject3-3\styles.css" />
+    <Content Include="Ch03Code\HandsOnProject3-4\index.htm" />
+    <Content Include="Ch03Code\HandsOnProject3-4\modernizr.custom.05819.js" />
+    <Content Include="Ch03Code\HandsOnProject3-4\styles.css" />
+    <Content Include="Ch03Code\HandsOnProject3-5\index.htm" />
+    <Content Include="Ch03Code\HandsOnProject3-5\modernizr.custom.05819.js" />
+    <Content Include="Ch03Code\HandsOnProject3-5\styles.css" />
+    <Content Include="Ch04Code\Chapter\images\tuba2.png" />
+    <Content Include="Ch04Code\Chapter\modernizr.custom.05819.js" />
+    <Content Include="Ch04Code\Chapter\tractor.htm" />
+    <Content Include="Ch04Code\Chapter\tuba.css" />
+    <Content Include="Ch04Code\Chapter\tuba.js" />
+    <Content Include="Ch04Code\Chapter\tubaie.css" />
+    <Content Include="Ch04Code\HandsOnProject4-1\images\tuba2.png" />
+    <Content Include="Ch04Code\HandsOnProject4-1\modernizr.custom.05819.js" />
+    <Content Include="Ch04Code\HandsOnProject4-1\tractor.htm" />
+    <Content Include="Ch04Code\HandsOnProject4-1\tuba.css" />
+    <Content Include="Ch04Code\HandsOnProject4-1\tuba.js" />
+    <Content Include="Ch04Code\HandsOnProject4-1\tubaie.css" />
+    <Content Include="Ch04Code\HandsOnProject4-2\images\tuba2.png" />
+    <Content Include="Ch04Code\HandsOnProject4-2\modernizr.custom.05819.js" />
+    <Content Include="Ch04Code\HandsOnProject4-2\tractor.htm" />
+    <Content Include="Ch04Code\HandsOnProject4-2\tuba.css" />
+    <Content Include="Ch04Code\HandsOnProject4-2\tuba.js" />
+    <Content Include="Ch04Code\HandsOnProject4-2\tubaie.css" />
+    <Content Include="Ch04Code\HandsOnProject4-3\index.htm" />
+    <Content Include="Ch04Code\HandsOnProject4-3\modernizr.custom.05819.js" />
+    <Content Include="Ch04Code\HandsOnProject4-3\styles.css" />
+    <Content Include="Ch04Code\HandsOnProject4-4\index.htm" />
+    <Content Include="Ch04Code\HandsOnProject4-4\modernizr.custom.05819.js" />
+    <Content Include="Ch04Code\HandsOnProject4-4\styles.css" />
+    <Content Include="Ch04Code\HandsOnProject4-5\index.htm" />
+    <Content Include="Ch04Code\HandsOnProject4-5\modernizr.custom.05819.js" />
+    <Content Include="Ch04Code\HandsOnProject4-5\styles.css" />
+    <Content Include="Ch05Code\Chapter\images\IMG_01.jpg" />
+    <Content Include="Ch05Code\Chapter\images\IMG_01sm.jpg" />
+    <Content Include="Ch05Code\Chapter\images\IMG_02.jpg" />
+    <Content Include="Ch05Code\Chapter\images\IMG_02sm.jpg" />
+    <Content Include="Ch05Code\Chapter\images\IMG_03.jpg" />
+    <Content Include="Ch05Code\Chapter\images\IMG_03sm.jpg" />
+    <Content Include="Ch05Code\Chapter\images\IMG_04.jpg" />
+    <Content Include="Ch05Code\Chapter\images\IMG_04sm.jpg" />
+    <Content Include="Ch05Code\Chapter\images\IMG_05.jpg" />
+    <Content Include="Ch05Code\Chapter\images\IMG_05sm.jpg" />
+    <Content Include="Ch05Code\Chapter\modernizr.custom.05819.js" />
+    <Content Include="Ch05Code\Chapter\photos.css" />
+    <Content Include="Ch05Code\Chapter\photos.htm" />
+    <Content Include="Ch05Code\Chapter\photos.js" />
+    <Content Include="Ch05Code\Chapter\zoom.css" />
+    <Content Include="Ch05Code\Chapter\zoom.htm" />
+    <Content Include="Ch05Code\Chapter\zoom.js" />
+    <Content Include="Ch05Code\HandsOnProject5-1\index.htm" />
+    <Content Include="Ch05Code\HandsOnProject5-2\confirm.htm" />
+    <Content Include="Ch05Code\HandsOnProject5-2\index.htm" />
+    <Content Include="Ch05Code\HandsOnProject5-2\modernizr.custom.05819.js" />
+    <Content Include="Ch05Code\HandsOnProject5-2\styles.css" />
+    <Content Include="Ch05Code\HandsOnProject5-3\confirm.htm" />
+    <Content Include="Ch05Code\HandsOnProject5-3\index.htm" />
+    <Content Include="Ch05Code\HandsOnProject5-3\modernizr.custom.05819.js" />
+    <Content Include="Ch05Code\HandsOnProject5-3\styles.css" />
+    <Content Include="Ch05Code\HandsOnProject5-4\confirm.htm" />
+    <Content Include="Ch05Code\HandsOnProject5-4\index.htm" />
+    <Content Include="Ch05Code\HandsOnProject5-4\modernizr.custom.05819.js" />
+    <Content Include="Ch05Code\HandsOnProject5-4\styles.css" />
+    <Content Include="Ch05Code\HandsOnProject5-5\index.htm" />
+    <Content Include="Ch05Code\HandsOnProject5-5\modernizr.custom.05819.js" />
+    <Content Include="Ch05Code\HandsOnProject5-5\styles.css" />
+    <Content Include="Ch06Code\Chapter\modernizr.custom.65897.js" />
+    <Content Include="Ch06Code\Chapter\results.htm" />
+    <Content Include="Ch06Code\Chapter\snoot.css" />
+    <Content Include="Ch06Code\Chapter\snoot.htm" />
+    <Content Include="Ch06Code\Chapter\snoot.js" />
+    <Content Include="Ch06Code\HandsOnProject6-1\index.htm" />
+    <Content Include="Ch06Code\HandsOnProject6-1\modernizr.custom.65897.js" />
+    <Content Include="Ch06Code\HandsOnProject6-1\results.htm" />
+    <Content Include="Ch06Code\HandsOnProject6-1\script.js" />
+    <Content Include="Ch06Code\HandsOnProject6-1\styles.css" />
+    <Content Include="Ch06Code\HandsOnProject6-2\index.htm" />
+    <Content Include="Ch06Code\HandsOnProject6-2\modernizr.custom.65897.js" />
+    <Content Include="Ch06Code\HandsOnProject6-2\results.htm" />
+    <Content Include="Ch06Code\HandsOnProject6-2\script.js" />
+    <Content Include="Ch06Code\HandsOnProject6-2\styles.css" />
+    <Content Include="Ch06Code\HandsOnProject6-3\index.htm" />
+    <Content Include="Ch06Code\HandsOnProject6-3\modernizr.custom.65897.js" />
+    <Content Include="Ch06Code\HandsOnProject6-3\results.htm" />
+    <Content Include="Ch06Code\HandsOnProject6-3\script.js" />
+    <Content Include="Ch06Code\HandsOnProject6-3\styles.css" />
+    <Content Include="Ch06Code\HandsOnProject6-4\index.htm" />
+    <Content Include="Ch06Code\HandsOnProject6-4\modernizr.custom.65897.js" />
+    <Content Include="Ch06Code\HandsOnProject6-4\script.js" />
+    <Content Include="Ch06Code\HandsOnProject6-4\styles.css" />
+    <Content Include="Ch06Code\HandsOnProject6-5\index.htm" />
+    <Content Include="Ch06Code\HandsOnProject6-5\modernizr.custom.65897.js" />
+    <Content Include="Ch06Code\HandsOnProject6-5\script.js" />
+    <Content Include="Ch06Code\HandsOnProject6-5\styles.css" />
+    <Content Include="Ch07Code\Chapter\booktrip.htm" />
+    <Content Include="Ch07Code\Chapter\images\bg.jpg" />
+    <Content Include="Ch07Code\Chapter\images\orbits.png" />
+    <Content Include="Ch07Code\Chapter\images\tile.jpg" />
+    <Content Include="Ch07Code\Chapter\modernizr.custom.65897.js" />
+    <Content Include="Ch07Code\Chapter\orbits.css" />
+    <Content Include="Ch07Code\Chapter\orbits.js" />
+    <Content Include="Ch07Code\Chapter\orbitshh.css" />
+    <Content Include="Ch07Code\HandsOnProject7-1\index.htm" />
+    <Content Include="Ch07Code\HandsOnProject7-1\modernizr.custom.05819.js" />
+    <Content Include="Ch07Code\HandsOnProject7-1\styles.css" />
+    <Content Include="Ch07Code\HandsOnProject7-2\index.htm" />
+    <Content Include="Ch07Code\HandsOnProject7-2\modernizr.custom.05819.js" />
+    <Content Include="Ch07Code\HandsOnProject7-2\styles.css" />
+    <Content Include="Ch07Code\HandsOnProject7-3\index.htm" />
+    <Content Include="Ch07Code\HandsOnProject7-3\modernizr.custom.05819.js" />
+    <Content Include="Ch07Code\HandsOnProject7-3\styles.css" />
+    <Content Include="Ch07Code\HandsOnProject7-4\index.htm" />
+    <Content Include="Ch07Code\HandsOnProject7-4\modernizr.custom.65897.js" />
+    <Content Include="Ch07Code\HandsOnProject7-4\script.js" />
+    <Content Include="Ch07Code\HandsOnProject7-4\styles.css" />
+    <Content Include="Ch07Code\HandsOnProject7-5\index.htm" />
+    <Content Include="Ch07Code\HandsOnProject7-5\modernizr.custom.65897.js" />
+    <Content Include="Ch07Code\HandsOnProject7-5\script.js" />
+    <Content Include="Ch07Code\HandsOnProject7-5\styles.css" />
+    <Content Include="Ch10Code\Chapter\modernizr.custom.64298.js" />
+    <Content Include="Ch10Code\Chapter\oaklogo.png" />
+    <Content Include="Ch10Code\Chapter\oaktop.css" />
+    <Content Include="Ch10Code\Chapter\oaktop.htm" />
+    <Content Include="Ch10Code\Chapter\script.js" />
+    <Content Include="Ch10Code\HandsOnProject10-1\images\frog.jpg" />
+    <Content Include="Ch10Code\HandsOnProject10-1\images\frog_01.png" />
+    <Content Include="Ch10Code\HandsOnProject10-1\images\frog_01_sm.png" />
+    <Content Include="Ch10Code\HandsOnProject10-1\images\frog_02.png" />
+    <Content Include="Ch10Code\HandsOnProject10-1\images\frog_02_sm.png" />
+    <Content Include="Ch10Code\HandsOnProject10-1\images\frog_03.png" />
+    <Content Include="Ch10Code\HandsOnProject10-1\images\frog_03_sm.png" />
+    <Content Include="Ch10Code\HandsOnProject10-1\images\frog_04.png" />
+    <Content Include="Ch10Code\HandsOnProject10-1\images\frog_04_sm.png" />
+    <Content Include="Ch10Code\HandsOnProject10-1\images\frog_05.png" />
+    <Content Include="Ch10Code\HandsOnProject10-1\images\frog_05_sm.png" />
+    <Content Include="Ch10Code\HandsOnProject10-1\images\frog_06.png" />
+    <Content Include="Ch10Code\HandsOnProject10-1\images\frog_06_sm.png" />
+    <Content Include="Ch10Code\HandsOnProject10-1\index.htm" />
+    <Content Include="Ch10Code\HandsOnProject10-1\modernizr.custom.05819.js" />
+    <Content Include="Ch10Code\HandsOnProject10-1\script.js" />
+    <Content Include="Ch10Code\HandsOnProject10-1\styles.css" />
+    <Content Include="Ch10Code\HandsOnProject10-3\images\frog.jpg" />
+    <Content Include="Ch10Code\HandsOnProject10-3\images\frog_01.png" />
+    <Content Include="Ch10Code\HandsOnProject10-3\images\frog_01_sm.png" />
+    <Content Include="Ch10Code\HandsOnProject10-3\images\frog_02.png" />
+    <Content Include="Ch10Code\HandsOnProject10-3\images\frog_02_sm.png" />
+    <Content Include="Ch10Code\HandsOnProject10-3\images\frog_03.png" />
+    <Content Include="Ch10Code\HandsOnProject10-3\images\frog_03_sm.png" />
+    <Content Include="Ch10Code\HandsOnProject10-3\images\frog_04.png" />
+    <Content Include="Ch10Code\HandsOnProject10-3\images\frog_04_sm.png" />
+    <Content Include="Ch10Code\HandsOnProject10-3\images\frog_05.png" />
+    <Content Include="Ch10Code\HandsOnProject10-3\images\frog_05_sm.png" />
+    <Content Include="Ch10Code\HandsOnProject10-3\images\frog_06.png" />
+    <Content Include="Ch10Code\HandsOnProject10-3\images\frog_06_sm.png" />
+    <Content Include="Ch10Code\HandsOnProject10-3\index.htm" />
+    <Content Include="Ch10Code\HandsOnProject10-3\modernizr.custom.05819.js" />
+    <Content Include="Ch10Code\HandsOnProject10-3\script.js" />
+    <Content Include="Ch10Code\HandsOnProject10-3\styles.css" />
+    <Content Include="CookieDemo\Cookie.css" />
+    <Content Include="CookieDemo\Cookie.html" />
+    <Content Include="CookieDemo\Cookie.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assignment1\images\" />
+    <Folder Include="Assignment5\images\" />
+    <Folder Include="Ch10Code\HandsOnProject10-2\" />
+    <Folder Include="Ch10Code\HandsOnProject10-4\" />
+    <Folder Include="Ch10Code\HandsOnProject10-5\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9047</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:9047/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

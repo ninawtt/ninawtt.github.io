@@ -1,0 +1,25 @@
+﻿#allPage {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(images/california.jpg);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#form {
+    width: 27%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+}
+
+input[type=text] {
+    display: inline-block !important;
+    text-align: left !important;
+    width: 200px;
+}
+
+
+

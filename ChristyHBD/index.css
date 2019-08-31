@@ -1,0 +1,213 @@
+#allPage {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+#nav {
+    height: 40px;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding-left: 0px !important;
+    margin: 0px;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 3px;
+    margin-right: 10px;
+    font-family: 'Amita';
+}
+
+body {
+    margin: 0px !important;
+    overflow: hidden;
+}
+
+#HBDTitle, #HBDTitle img {
+    height: 120px;
+}
+
+.tabLinkActive {
+    font-weight: bold;
+    color: #efbba6;
+}
+
+.tabLinks {
+    color: #b7cfc2;
+    cursor: pointer;
+}
+
+.tabLinks:hover {
+    font-weight: bold;
+}
+
+#story, #gallery, #game, #credits {
+    display: none;
+    height: 480px;
+}
+
+#home img {
+    height: 480px;
+    border-radius: 10px;
+}
+
+/* story page */
+#story img {
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+#story h2 {
+    margin: 5px;
+    padding-top: 8px;
+    font-family: 'Gloria Hallelujah';
+}
+
+#story p {
+    font-family: 'Kalam';
+    margin-top: 10px;
+}
+#dayCounter {
+    background-color: #efbba6;
+    opacity: 0.5;
+    height: 170px;
+}
+
+#years, #months, #days, #hours, #minutes, #seconds {
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Coiny';
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60px;
+    border-radius: 20px;
+}
+
+/* gallery page */
+/* #gallery {
+    background-image: url("images/picFrame-removebg-preview.png");
+    background-size: contain;
+    background-position: center;
+} */
+#gallery img {
+    border-radius: 8px;
+}
+
+#camera {
+    position: absolute;
+    transform: rotate(-20deg);
+    left: 50px;
+    top: 450px;
+}
+
+#bestie {
+    position: absolute;
+    right: 50px;
+    top: 460px;
+}
+
+#counter {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 640px;
+    height: 25px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 324px;
+    top: 615px;
+    list-style-type: none;
+    display: inline-block;
+    font-family: auto;
+    line-height: normal;
+}
+
+#counter li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* game page */
+#game {
+    font-family: 'Courier New', Courier, monospace;
+}
+#game h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 55px;
+    font-family: 'Frijole';
+}
+#game p {
+    margin-bottom: 0px;
+    font-family: 'Aldrich';
+}
+#smallChristy {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -22px;
+}
+#smallChristy img {
+    margin-right: 40px;
+    vertical-align: top;
+    height: 290px;
+}
+#gameRule {
+    height: 500px;
+    margin-top: -13px;
+    background-image: url("images/frame.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center; 
+}
+#gameRule button {
+    z-index: 1;
+    position: relative;
+    margin-top: 10px;
+    font-family: 'Aldrich';
+}
+
+#gameBox {
+    display: none;
+    width: 100%;
+}
+#gameBg {
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 160px;
+    left: 150px;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    border-style: solid;
+}
+#scoreBoard {
+    font-family: 'Aldrich';
+    width: 12%;
+}
+#christyRole {
+    position: absolute;
+}
+#scoreBoard button {
+    text-align: center;
+    width: 90px;
+    margin: 5px;
+}
+
+
+/* footer */
+footer {
+    position: absolute;
+    left: 535px;
+    bottom: 7px;
+    font-family: 'Blinker';
+    font-size: small;
+}
