@@ -56,12 +56,12 @@ body {
 
 /* story page */
 #story img {
-    height: 400px;
     position: absolute;
+    height: 250px;
+    top: 415px;
     left: 0px;
     /* bottom: 0px; */
 }
-
 
 
 #story h2 {
@@ -223,4 +223,11 @@ footer {
     body {
         overflow: hidden;
     }
+    #story img {
+        height: 400px;
+        position: absolute;
+        left: 0px;
+        top: 265px;
+    }
+    
 }
