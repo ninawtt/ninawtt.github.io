@@ -23,7 +23,7 @@
 
 body {
     margin: 0px !important;
-    overflow: hidden;
+    overflow: auto;
 }
 
 #HBDTitle, #HBDTitle img {
@@ -59,8 +59,10 @@ body {
     height: 400px;
     position: absolute;
     left: 0px;
-    bottom: 0px;
+    /* bottom: 0px; */
 }
+
+
 
 #story h2 {
     margin: 5px;
@@ -68,9 +70,15 @@ body {
     font-family: 'Gloria Hallelujah';
 }
 
+#storyTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
 #story p {
     font-family: 'Kalam';
-    margin-top: 10px;
+    margin-top: 5px;
 }
 #dayCounter {
     background-color: #efbba6;
@@ -89,11 +97,6 @@ body {
 }
 
 /* gallery page */
-/* #gallery {
-    background-image: url("images/picFrame-removebg-preview.png");
-    background-size: contain;
-    background-position: center;
-} */
 #gallery img {
     border-radius: 8px;
 }
@@ -112,6 +115,7 @@ body {
 }
 
 #counter {
+    display: none;
     background-color: rgba(255, 255, 255, 0.4);
     width: 640px;
     height: 25px;
@@ -123,7 +127,6 @@ body {
     left: 324px;
     top: 615px;
     list-style-type: none;
-    display: inline-block;
     font-family: auto;
     line-height: normal;
 }
@@ -132,6 +135,7 @@ body {
     display: inline-block;
     cursor: pointer;
 }
+
 
 /* game page */
 #game {
@@ -148,10 +152,7 @@ body {
     font-family: 'Aldrich';
 }
 #smallChristy {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -22px;
+    margin-top: -2%;
 }
 #smallChristy img {
     margin-right: 40px;
@@ -195,6 +196,7 @@ body {
 }
 #christyRole {
     position: absolute;
+    height: 170px;
 }
 #scoreBoard button {
     text-align: center;
@@ -205,9 +207,21 @@ body {
 
 /* footer */
 footer {
-    position: absolute;
+    position: relative;
+    /* position: absolute;
     left: 535px;
-    bottom: 7px;
+    bottom: 7px; */
     font-family: 'Blinker';
     font-size: small;
+}
+
+
+/* responsive design for max screen */
+@media screen and (min-width: 1200px) {
+    #counter {
+        display: block!important;
+    }
+    body {
+        overflow: hidden;
+    }
 }
