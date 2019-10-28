@@ -1,0 +1,286 @@
+#home {
+    height: 700px;
+    padding-top: 20%;
+    background-color: #31355b;
+    color: white;
+}
+
+#home span {
+    font-family: 'Meddon';
+    font-size: 60px;
+}
+
+#home p{
+    font-family: 'COURIER';
+    font-size: 30px;
+}
+
+#highlight {
+    color: palevioletred;
+}
+
+.container {
+    width: 100%;
+}
+
+
+#projects {
+    /* height: 700px; */
+    background-color: #F2EAED;
+    /* background-color: #dbe2e8; */
+}
+
+
+.sectionTitle {
+    padding: 2%;
+    font-family: 'Audiowide';
+    font-size: 50px;
+}
+
+/*gallery nav*/
+#projectNav {
+    height: 40px;
+    margin-bottom: 1%;
+}
+
+#projectNav ul {
+    list-style-type: none;
+    padding-left: 0px !important;
+    margin: 0px;
+}
+
+#projectNav li {
+    padding: 1% !important;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+
+.tablinks {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.tablinksactive {
+    background-color: palevioletred;
+    color: #31355b;
+}
+.tablinks:hover {
+    background-color: #31355b;
+    color: palevioletred;
+    transition: 0.3s;
+}
+
+
+/*gallery*/
+#gallery{
+    display: inline-block !important;
+    /* to eliminate the gap between divs inside test */
+    font-size: 0px; 
+    margin: 1%;
+}
+
+#SPTab {
+    display: none;
+}
+
+.AP, .SP {
+    width: 320px;
+    height: 240px;
+    display: inline-block;
+}
+
+
+.AP img, .AP img {
+    width: 320px;
+    height: 240px;
+}
+
+#AP1 {
+    background-image: url("images/AP01.png");
+    background-size: 320px 240px;
+}
+
+#AP2 {
+    background-image: url("images/AP02.png");
+    background-size: 320px 240px;
+}
+
+#AP3 {
+    background-image: url("images/AP03.png");
+    background-size: 320px 240px;
+}
+
+#AP4 {
+    background-image: url("images/AP04.png");
+    background-size: 320px 240px;
+}
+
+#AP5 {
+    background-image: url("images/AP05.png");
+    background-size: 320px 240px;
+}
+
+#AP6 {
+    background-image: url("images/AP06.png");
+    background-size: 320px 240px;
+}
+
+#AP7 {
+    background-image: url("images/AP07.png");
+    background-size: 320px 240px;
+}
+
+#AP8 {
+    background-image: url("images/AP08.png");
+    background-size: 320px 240px;
+}
+
+#AP9 {
+    background-image: url("images/AP09.png");
+    background-size: 320px 240px;
+}
+
+#AP10 {
+    background-image: url("images/AP10.png");
+    background-size: 320px 240px;
+}
+
+#SP1 {
+    background-image: url("images/SP01.png");
+    background-size: 320px 240px;
+}
+
+#SP2 {
+    background-image: url("images/SP02.png");
+    background-size: 320px 240px;
+}
+
+
+.AP:hover > .textbody {
+    display: table;
+}
+
+.SP:hover > .textbody {
+    display: table;
+}
+
+.textbody {
+    width: 320px;
+    height: 240px;
+    padding: 10%;
+    font-size: small;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    display: none;
+}
+
+.textbody h4 {
+    padding-top: 10%;
+    font-family: cursive;
+}
+
+
+/* 
+.card {
+    display: inline-block !important;
+}
+
+.card img {
+    width: 320px;
+    height: 240px;
+} */
+/* 
+.galleryContent {
+    display: inline-block;
+    width: 320px;
+    height: 240px;
+}
+
+.galleryText {
+    width: 320px;
+    height: 240px;
+    display: none;
+    background-color: white;
+} */
+
+/* #galleryImg1:hover {
+    transition: 5s;
+    display: none;
+}
+
+#galleryImg1:hover ~ #galleryText1 {
+    transition: 5s;
+    display: inline-block;
+}
+
+
+#galleryImg2:hover {
+    transition: 5s;
+    display: none;
+}
+
+#galleryImg2:hover ~ #galleryText2 {
+    transition: 5s;
+    display: inline-block;
+} */
+
+
+/*footer*/
+footer {
+    background-color: #1B242F;
+    color: white;
+}
+
+#socialIcons a:link {
+    text-decoration: none;
+}
+
+
+/* .cards {
+    height: 300px;
+    background-size: 20%;
+    background-repeat: no-repeat;
+} */
+
+/* .gallery_items{
+    width:100%} */
+
+/* .gallery_div{
+    display: inline-block;
+    width:33%
+} */
+
+/* #cards {
+    margin: 1%;
+} */
+/* 
+#test {
+    display: inline-block;
+    
+    font-size: 0px; 
+} */
+
+
+
+
+
+
+/* .card {
+    display: inline-block !important;
+    width: 30%;
+    border-style: solid !important;
+    border-color: blueviolet !important;
+} */
+
+/* .card img {
+    width: 200px;
+    height: 150px;
+} */
+
+
+
+
